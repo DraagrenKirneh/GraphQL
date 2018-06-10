@@ -1,4 +1,4 @@
-accessing
+construction
 sides: aNumber
 		
 	^ self basicNew 

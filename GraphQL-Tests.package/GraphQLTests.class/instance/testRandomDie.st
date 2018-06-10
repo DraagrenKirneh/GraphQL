@@ -5,7 +5,7 @@ testRandomDie
 
 	gql := GqlBuilder new 
 		classes: { GqlExRandomDie };
-		roots: { GqlExamleRoot new };
+		addQuery: GqlExRandomDie rootResolver;
 		build.
 
 	gql execute: '{ 
@@ -15,7 +15,7 @@ testRandomDie
 		} 		
 	}'.
 	
-	res := gql execute: 'query root { 
+	res := gql execute: 'query dice { 
 		getDie(numSides: 1) { 
 			rollOnce 
 		} 		

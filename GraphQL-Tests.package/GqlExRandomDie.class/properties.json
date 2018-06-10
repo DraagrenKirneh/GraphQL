@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "HenrikNergaard 6/10/2018 13:25",
 	"super" : "Object",
-	"category" : "GraphQL-Tests-Models",
+	"category" : "GraphQL-Tests-Examples",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
