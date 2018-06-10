@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "HenrikNergaard 5/1/2018 19:35",
+	"super" : "Object",
+	"category" : "GraphQL-Tests-Examples",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"feed"
+	],
+	"name" : "GqlExampleLinkFeed",
+	"type" : "normal"
+}

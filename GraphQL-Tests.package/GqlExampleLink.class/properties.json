@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "HenrikNergaard 6/10/2018 22:54",
+	"super" : "Object",
+	"category" : "GraphQL-Tests-Examples",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"id",
+		"created",
+		"description",
+		"url",
+		"name"
+	],
+	"name" : "GqlExampleLink",
+	"type" : "normal"
+}
