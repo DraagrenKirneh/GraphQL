@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "GraphQL-Core-Utilities",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"output",
+		"parent",
+		"context",
+		"resolver"
+	],
+	"name" : "GqlObjectWriter",
+	"type" : "normal"
+}

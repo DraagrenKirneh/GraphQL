@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "HenrikNergaard 6/10/2018 13:26",
+	"super" : "Object",
+	"category" : "GraphQL-Core-Models",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"value"
+	],
+	"name" : "GqlAbstractEnum",
+	"type" : "normal"
+}

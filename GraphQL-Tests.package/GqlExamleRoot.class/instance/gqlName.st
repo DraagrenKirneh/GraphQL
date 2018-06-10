@@ -1,0 +1,6 @@
+accessing
+gqlName
+	
+	<gqlQuery>
+	
+	^ #root

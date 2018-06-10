@@ -1,0 +1,16 @@
+{
+	"instance" : {
+		"addMutation:" : "HenrikNergaard 5/5/2018 00:05",
+		"addQuery:" : "HenrikNergaard 5/5/2018 00:05",
+		"addSubscription:" : "HenrikNergaard 5/5/2018 00:00",
+		"fetchOperation:" : "HenrikNergaard 5/4/2018 20:22",
+		"initialize" : "HenrikNergaard 4/30/2018 12:34",
+		"mutation" : "HenrikNergaard 4/30/2018 12:35",
+		"operationSet:" : "HenrikNergaard 4/30/2018 16:05",
+		"query" : "HenrikNergaard 4/30/2018 12:35",
+		"resolversDo:" : "HenrikNergaard 6/10/2018 14:42",
+		"resovlerFor:" : "HenrikNergaard 5/5/2018 00:20",
+		"subscription" : "HenrikNergaard 4/30/2018 12:35"
+	},
+	"class" : { }
+}

@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "GqlNamedNode",
+	"category" : "GraphQL-Core-Parsing",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"condition",
+		"directives",
+		"selections"
+	],
+	"name" : "GqlFragmentNode",
+	"type" : "normal"
+}

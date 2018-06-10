@@ -1,0 +1,4 @@
+converting
+asStringScalar
+	
+	type := #String

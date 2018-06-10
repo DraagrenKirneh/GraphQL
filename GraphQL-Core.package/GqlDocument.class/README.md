@@ -1,0 +1,2 @@
+A GraphQL Document describes a complete file or request string operated on by a GraphQL service or client. 
+A document contains multiple definitions, either executable or representative of a GraphQL type system.

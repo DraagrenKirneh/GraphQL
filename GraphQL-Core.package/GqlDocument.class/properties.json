@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "HenrikNergaard 6/10/2018 15:17",
+	"super" : "Object",
+	"category" : "GraphQL-Core-Parsing",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"operations",
+		"fragments",
+		"variables"
+	],
+	"name" : "GqlDocument",
+	"type" : "normal"
+}

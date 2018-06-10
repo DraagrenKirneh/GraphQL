@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "HenrikNergaard 4/25/2018 21:55",
+	"super" : "GqlBaseParser",
+	"category" : "GraphQL-Schema-Parser",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"definitions"
+	],
+	"name" : "GqlSchemaParser",
+	"type" : "normal"
+}

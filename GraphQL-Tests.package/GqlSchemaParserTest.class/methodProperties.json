@@ -1,0 +1,17 @@
+{
+	"instance" : {
+		"initOn:" : "HenrikNergaard 4/25/2018 22:51",
+		"parse:" : "HenrikNergaard 4/25/2018 22:52",
+		"tearDown" : "HenrikNergaard 4/25/2018 22:51",
+		"testEnumDefinition" : "HenrikNergaard 6/10/2018 14:02",
+		"testInterfaceDefinition" : "HenrikNergaard 4/25/2018 22:54",
+		"testMutationType" : "HenrikNergaard 4/25/2018 23:16",
+		"testParseMultiUnion" : "HenrikNergaard 4/25/2018 23:37",
+		"testParseSingleUnion" : "HenrikNergaard 4/25/2018 23:36",
+		"testQueryType" : "HenrikNergaard 4/25/2018 23:27",
+		"testRandomDie" : "HenrikNergaard 6/10/2018 14:55",
+		"testScalarDefinition" : "HenrikNergaard 4/25/2018 22:57",
+		"testUserWithEntityType" : "HenrikNergaard 4/25/2018 23:18"
+	},
+	"class" : { }
+}

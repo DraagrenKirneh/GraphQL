@@ -1,0 +1,12 @@
+variables
+exampleNo32
+
+	<parseTest>
+	
+	^ 'query getZuckProfile($devicePicSize: Int) {
+  			user(id: 4) {
+    			id
+    			name
+ 	   			profilePic(size: $devicePicSize)
+  			}
+		}'

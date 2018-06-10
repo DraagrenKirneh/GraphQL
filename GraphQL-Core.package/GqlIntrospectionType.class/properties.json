@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "HenrikNergaard 6/10/2018 13:26",
+	"super" : "Object",
+	"category" : "GraphQL-Core-Introspection",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"object"
+	],
+	"name" : "GqlIntrospectionType",
+	"type" : "normal"
+}

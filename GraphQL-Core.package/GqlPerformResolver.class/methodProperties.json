@@ -1,0 +1,23 @@
+{
+	"instance" : {
+		"args" : "HenrikNergaard 6/9/2018 21:36",
+		"argsFromMap:" : "HenrikNergaard 6/10/2018 12:39",
+		"arguments:" : "HenrikNergaard 4/24/2018 23:54",
+		"bindTypeFrom:" : "HenrikNergaard 5/1/2018 11:53",
+		"defaults" : "HenrikNergaard 6/10/2018 12:40",
+		"defaults:" : "HenrikNergaard 6/10/2018 12:40",
+		"initialize" : "HenrikNergaard 5/4/2018 23:02",
+		"introspect" : "HenrikNergaard 6/10/2018 13:13",
+		"isList:" : "HenrikNergaard 5/4/2018 23:07",
+		"resolveField:from:in:" : "HenrikNergaard 5/10/2018 17:47",
+		"returnsArray" : "HenrikNergaard 5/4/2018 23:02",
+		"selector:" : "HenrikNergaard 4/24/2018 23:37",
+		"subResolve:for:in:using:" : "HenrikNergaard 5/4/2018 23:02",
+		"type" : "HenrikNergaard 4/24/2018 23:37",
+		"type:" : "HenrikNergaard 4/24/2018 23:37"
+	},
+	"class" : {
+		"fromPragma:" : "HenrikNergaard 6/10/2018 12:58",
+		"verifyPragma:" : "HenrikNergaard 5/4/2018 23:12"
+	}
+}

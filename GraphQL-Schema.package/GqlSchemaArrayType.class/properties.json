@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "GqlSchemaType",
+	"category" : "GraphQL-Schema-Nodes",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"subType"
+	],
+	"name" : "GqlSchemaArrayType",
+	"type" : "normal"
+}

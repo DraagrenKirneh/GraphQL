@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "GraphQL-Schema-Parser",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"root",
+		"interfaces",
+		"scalars",
+		"types"
+	],
+	"name" : "GqlSchemaDocument",
+	"type" : "normal"
+}

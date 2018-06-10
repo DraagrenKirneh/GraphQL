@@ -1,0 +1,1 @@
+I add a test like icons for methods including the pragma <parseTest>

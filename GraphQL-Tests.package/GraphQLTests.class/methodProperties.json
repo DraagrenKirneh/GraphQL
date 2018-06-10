@@ -1,0 +1,12 @@
+{
+	"instance" : {
+		"assertResult:atPath:equals:" : "HenrikNergaard 6/10/2018 20:58",
+		"pageTypeResolver" : "HenrikNergaard 6/10/2018 14:48",
+		"testFragments" : "HenrikNergaard 6/10/2018 14:48",
+		"testHelloWorld" : "HenrikNergaard 6/10/2018 14:45",
+		"testInlineFragments" : "HenrikNergaard 6/10/2018 14:50",
+		"testLinks" : "HenrikNergaard 6/10/2018 14:52",
+		"testRandomDie" : "HenrikNergaard 6/10/2018 20:58"
+	},
+	"class" : { }
+}

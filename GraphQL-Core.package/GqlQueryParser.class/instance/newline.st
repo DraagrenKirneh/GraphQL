@@ -1,0 +1,4 @@
+accessing
+newline
+
+	^ Character lf 

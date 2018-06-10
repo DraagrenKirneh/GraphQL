@@ -1,0 +1,1 @@
+There are several different kinds of type. In each kind, different fields are actually valid. These kinds are listed in the __TypeKind enumeration.

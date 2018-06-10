@@ -1,0 +1,4 @@
+converting
+asFloatScalar
+
+	type := #Float

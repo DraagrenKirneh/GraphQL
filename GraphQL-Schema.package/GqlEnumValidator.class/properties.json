@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "GqlAbstractValidator",
+	"category" : "GraphQL-Schema-Validators",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "GqlEnumValidator",
+	"type" : "normal"
+}

@@ -1,0 +1,24 @@
+{
+	"instance" : {
+		"acceptVisitor:" : "HenrikNergaard 4/21/2018 09:12",
+		"beMutation" : "HenrikNergaard 8/6/2017 11:02",
+		"beQuery" : "HenrikNergaard 8/6/2017 11:02",
+		"beSubcription" : "HenrikNergaard 8/6/2017 11:01",
+		"directives" : "HenrikNergaard 5/1/2018 10:57",
+		"directives:" : "HenrikNergaard 8/6/2017 14:37",
+		"initialize" : "HenrikNergaard 5/1/2018 11:39",
+		"isBasicQuery" : "HenrikNergaard 4/21/2018 11:41",
+		"isMutation" : "HenrikNergaard 4/21/2018 10:28",
+		"isQuery" : "HenrikNergaard 4/21/2018 10:29",
+		"isSubcription" : "HenrikNergaard 4/21/2018 10:28",
+		"printOn:" : "HenrikNergaard 8/6/2017 11:24",
+		"selections" : "HenrikNergaard 4/20/2018 22:14",
+		"selections:" : "HenrikNergaard 8/6/2017 11:03",
+		"variables" : "HenrikNergaard 5/1/2018 10:57",
+		"variables:" : "HenrikNergaard 8/6/2017 14:37"
+	},
+	"class" : {
+		"forType:" : "HenrikNergaard 8/6/2017 13:22",
+		"queryShorthand:" : "HenrikNergaard 8/6/2017 11:02"
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "HenrikNergaard 11/13/2017 19:27",
+	"super" : "TestCase",
+	"category" : "GraphQL-Tests-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"parser"
+	],
+	"name" : "GqlQueryParserTest",
+	"type" : "normal"
+}

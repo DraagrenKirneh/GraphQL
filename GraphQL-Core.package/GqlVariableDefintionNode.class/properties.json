@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "GqlNamedNode",
+	"category" : "GraphQL-Core-Parsing",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"type",
+		"defaultValue"
+	],
+	"name" : "GqlVariableDefintionNode",
+	"type" : "normal"
+}

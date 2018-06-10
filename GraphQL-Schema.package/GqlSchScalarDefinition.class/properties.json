@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "HenrikNergaard 4/25/2018 21:56",
+	"super" : "GqlSchemaNamedNode",
+	"category" : "GraphQL-Schema-Nodes",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "GqlSchScalarDefinition",
+	"type" : "normal"
+}

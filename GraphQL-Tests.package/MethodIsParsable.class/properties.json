@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "HenrikNergaard 4/30/2018 23:54",
+	"super" : "AbstractMethodIconAction",
+	"category" : "GraphQL-Tests-Parsing",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "MethodIsParsable",
+	"type" : "normal"
+}

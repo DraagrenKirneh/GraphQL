@@ -1,0 +1,11 @@
+{
+	"instance" : {
+		"addPart:" : "HenrikNergaard 4/21/2018 09:21",
+		"fragments" : "HenrikNergaard 4/21/2018 09:21",
+		"initialize" : "HenrikNergaard 4/21/2018 09:17",
+		"operations" : "HenrikNergaard 4/21/2018 09:21",
+		"visitGqlFragment:" : "HenrikNergaard 4/21/2018 09:17",
+		"visitGqlOperation:" : "HenrikNergaard 4/21/2018 09:18"
+	},
+	"class" : { }
+}

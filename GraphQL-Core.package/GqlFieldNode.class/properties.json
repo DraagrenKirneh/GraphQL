@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "HenrikNergaard 6/10/2018 13:54",
+	"super" : "GqlNamedNode",
+	"category" : "GraphQL-Core-Parsing",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"alias",
+		"arguments",
+		"directives",
+		"selections"
+	],
+	"name" : "GqlFieldNode",
+	"type" : "normal"
+}

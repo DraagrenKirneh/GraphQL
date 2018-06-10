@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "GqlResolvable",
+	"category" : "GraphQL-Core-Resolvers",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"Default"
+	],
+	"instvars" : [ ],
+	"name" : "GqlScalarResolver",
+	"type" : "normal"
+}

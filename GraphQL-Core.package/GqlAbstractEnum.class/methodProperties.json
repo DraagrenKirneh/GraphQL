@@ -1,0 +1,12 @@
+{
+	"instance" : {
+		"defaultValue" : "HenrikNergaard 6/10/2018 13:29",
+		"enumerators" : "HenrikNergaard 6/9/2018 21:19",
+		"initialize" : "HenrikNergaard 6/10/2018 13:28",
+		"value" : "HenrikNergaard 6/9/2018 21:17",
+		"value:" : "HenrikNergaard 6/9/2018 21:18"
+	},
+	"class" : {
+		"asGqlResolver" : "HenrikNergaard 6/10/2018 11:48"
+	}
+}

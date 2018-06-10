@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "GqlSchemaNode",
+	"category" : "GraphQL-Schema-Nodes",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"roots"
+	],
+	"name" : "GqlSchemaDefinition",
+	"type" : "normal"
+}

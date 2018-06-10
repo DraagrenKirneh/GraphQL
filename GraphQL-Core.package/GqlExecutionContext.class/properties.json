@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "HenrikNergaard 6/10/2018 15:18",
+	"super" : "Object",
+	"category" : "GraphQL-Core-Execution",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"variables",
+		"userContext"
+	],
+	"name" : "GqlExecutionContext",
+	"type" : "normal"
+}

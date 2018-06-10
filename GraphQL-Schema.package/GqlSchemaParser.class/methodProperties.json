@@ -1,0 +1,32 @@
+{
+	"instance" : {
+		"initialize" : "HenrikNergaard 4/26/2018 22:12",
+		"parse" : "HenrikNergaard 4/26/2018 22:12",
+		"parseArgument" : "HenrikNergaard 6/10/2018 14:01",
+		"parseArgumentList" : "HenrikNergaard 4/25/2018 22:13",
+		"parseArrayType" : "HenrikNergaard 6/10/2018 20:45",
+		"parseBasicName" : "HenrikNergaard 4/25/2018 22:45",
+		"parseDefinition" : "HenrikNergaard 4/25/2018 23:35",
+		"parseEnum" : "HenrikNergaard 6/10/2018 14:02",
+		"parseEnumFields" : "HenrikNergaard 4/25/2018 23:02",
+		"parseField" : "HenrikNergaard 6/10/2018 14:02",
+		"parseFields" : "HenrikNergaard 4/25/2018 22:36",
+		"parseInput" : "HenrikNergaard 6/10/2018 14:02",
+		"parseInterface" : "HenrikNergaard 6/10/2018 14:02",
+		"parseInterfaceList" : "HenrikNergaard 4/25/2018 23:14",
+		"parseName" : "HenrikNergaard 4/25/2018 22:29",
+		"parseNamedType" : "HenrikNergaard 6/10/2018 20:45",
+		"parseRootField" : "HenrikNergaard 4/26/2018 22:16",
+		"parseRootFields" : "HenrikNergaard 4/26/2018 22:15",
+		"parseScalar" : "HenrikNergaard 4/25/2018 22:01",
+		"parseSchema" : "HenrikNergaard 6/10/2018 14:00",
+		"parseType" : "HenrikNergaard 4/25/2018 22:41",
+		"parseTypeDefinition" : "HenrikNergaard 6/10/2018 14:02",
+		"parseUnion" : "HenrikNergaard 4/25/2018 23:36",
+		"parseUnionTypes" : "HenrikNergaard 4/25/2018 23:34",
+		"parseValueAs:" : "HenrikNergaard 4/25/2018 23:29",
+		"peekForImplements" : "HenrikNergaard 4/25/2018 23:20",
+		"peekForString:" : "HenrikNergaard 4/25/2018 23:11"
+	},
+	"class" : { }
+}

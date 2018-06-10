@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "GqlCustomResolver",
+	"category" : "GraphQL-Core-Resolvers",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "GqlArrayResolver",
+	"type" : "normal"
+}

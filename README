@@ -1,0 +1,13 @@
+# GraphQL
+
+Smalltalk Pharo Implementation of [GraphQL](https://graphql.org/).
+Work in progress...
+
+# Installation
+
+```smalltalk
+Metacello new
+   baseline: 'GraphQL';
+   repository: 'github://DraagrenKirneh/GraphQL';
+   load.
+```

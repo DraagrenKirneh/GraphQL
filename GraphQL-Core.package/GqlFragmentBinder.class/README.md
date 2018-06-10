@@ -1,0 +1,1 @@
+FragmentBinder keeps track of all fragmnets and fragment spreads during parsing and binds them correctly.

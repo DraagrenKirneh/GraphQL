@@ -1,0 +1,4 @@
+expecting
+expectCurlyLeftBracket
+
+	self expectChar: ${

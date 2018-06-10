@@ -1,0 +1,1 @@
+ExecutionContext keeps track of defined variables and user context

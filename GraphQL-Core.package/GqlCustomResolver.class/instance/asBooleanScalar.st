@@ -1,0 +1,4 @@
+converting
+asBooleanScalar
+
+	type := #Boolean

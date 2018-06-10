@@ -1,0 +1,11 @@
+as yet unclassified
+resolveField: aField from: aParent in: anExecutionContext
+		
+	| resolvedArgs orderedArgs object |
+	
+	resolvedArgs := anExecutionContext getArgs: aField arguments.
+	orderedArgs := self argsFromMap: resolvedArgs.
+	
+	object := aParent perform: selector withArguments: orderedArgs.
+			
+	^ self subResolve: object for: aField in: anExecutionContext using: type

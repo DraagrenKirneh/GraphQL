@@ -1,0 +1,14 @@
+{
+	"instance" : {
+		"fromDefinitions:" : "HenrikNergaard 4/26/2018 22:36",
+		"initialize" : "HenrikNergaard 4/26/2018 22:27",
+		"visitEnumDefinition:" : "HenrikNergaard 4/26/2018 22:37",
+		"visitInputDefinition:" : "HenrikNergaard 4/26/2018 22:37",
+		"visitInterfaceDefinition:" : "HenrikNergaard 4/26/2018 22:37",
+		"visitScalarDefinition:" : "HenrikNergaard 4/26/2018 22:38",
+		"visitSchemaDefinition:" : "HenrikNergaard 4/26/2018 22:44",
+		"visitTypeDefinition:" : "HenrikNergaard 4/26/2018 22:37",
+		"visitUnionDefinition:" : "HenrikNergaard 4/26/2018 22:44"
+	},
+	"class" : { }
+}

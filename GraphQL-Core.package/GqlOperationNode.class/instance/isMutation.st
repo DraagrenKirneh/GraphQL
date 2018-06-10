@@ -1,0 +1,4 @@
+testing
+isMutation
+
+	^ type == #mutation

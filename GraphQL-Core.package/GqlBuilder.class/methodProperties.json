@@ -1,0 +1,26 @@
+{
+	"instance" : {
+		"addClasses:" : "HenrikNergaard 5/4/2018 20:27",
+		"addQuery:" : "HenrikNergaard 6/10/2018 14:44",
+		"addResolver:" : "HenrikNergaard 6/10/2018 14:35",
+		"addRoots:" : "HenrikNergaard 6/10/2018 14:41",
+		"bindTypes" : "HenrikNergaard 6/10/2018 14:43",
+		"build" : "HenrikNergaard 6/10/2018 14:41",
+		"classes:" : "HenrikNergaard 5/4/2018 20:27",
+		"createMutationResolver:" : "HenrikNergaard 5/4/2018 23:21",
+		"createQueryResolver:" : "HenrikNergaard 5/4/2018 23:20",
+		"createSubscriptionResolver:" : "HenrikNergaard 5/4/2018 23:22",
+		"fieldResolversFor:in:" : "HenrikNergaard 5/4/2018 23:13",
+		"initialize" : "HenrikNergaard 6/10/2018 14:43",
+		"mutationKeywords" : "HenrikNergaard 5/4/2018 23:15",
+		"operations" : "HenrikNergaard 6/10/2018 14:38",
+		"performPragma:in:" : "HenrikNergaard 5/4/2018 22:50",
+		"queryKeywords" : "HenrikNergaard 5/4/2018 23:14",
+		"rootResolverFor:type:fields:" : "HenrikNergaard 6/10/2018 14:43",
+		"roots:" : "HenrikNergaard 6/10/2018 14:41",
+		"subscriptionKeywords" : "HenrikNergaard 5/4/2018 23:22"
+	},
+	"class" : {
+		"classes:roots:" : "HenrikNergaard 5/4/2018 20:41"
+	}
+}

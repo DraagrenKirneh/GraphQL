@@ -1,0 +1,4 @@
+accessing
+newline
+
+	^ self subclassResponsibility 

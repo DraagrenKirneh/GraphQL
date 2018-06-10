@@ -1,0 +1,20 @@
+inline fragments
+exampleNo23
+
+	<parseTest>
+	
+	^ 	'query inlineFragmentTyping {
+  			profiles(handles: ["zuck", "cocacola"]) {
+    		handle
+    		... on User {
+      			friends {
+       			count
+      			}
+    		}
+    		... on Page {
+      			likers {
+        			count
+      			}
+    		}
+  		}
+	}'

@@ -1,0 +1,1 @@
+I Resolve a concrete object 

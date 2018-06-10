@@ -1,0 +1,20 @@
+fragments
+exampleNo19
+
+	<parseTest>
+	
+	^ 	'query withFragments {
+  			user(id: 4) {
+    		friends(first: 10) {
+      			...friendFields
+    		}
+    		mutualFriends(first: 10) {
+     			...friendFields
+    		}
+  		}
+	}
+	fragment friendFields on User {
+  		id
+  		name
+  		profilePic(size: 50)
+	}'

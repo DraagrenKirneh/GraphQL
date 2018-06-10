@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "HenrikNergaard 6/10/2018 15:16",
+	"super" : "Object",
+	"category" : "GraphQL-Core-Parsing",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"fragments",
+		"spreads"
+	],
+	"name" : "GqlFragmentBinder",
+	"type" : "normal"
+}

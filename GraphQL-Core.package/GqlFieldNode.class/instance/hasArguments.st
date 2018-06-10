@@ -1,0 +1,4 @@
+testing
+hasArguments
+
+	^ arguments isNotEmpty 

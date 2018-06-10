@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "HenrikNergaard 4/22/2018 20:57",
+	"super" : "GqlResolvable",
+	"category" : "GraphQL-Core-Resolvers",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"fields"
+	],
+	"name" : "GqlTypeResolver",
+	"type" : "normal"
+}

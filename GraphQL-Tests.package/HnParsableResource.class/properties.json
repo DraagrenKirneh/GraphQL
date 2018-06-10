@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "HenrikNergaard 6/10/2018 13:55",
+	"super" : "Object",
+	"category" : "GraphQL-Tests-Parsing",
+	"classinstvars" : [
+		"RunDict"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "HnParsableResource",
+	"type" : "normal"
+}

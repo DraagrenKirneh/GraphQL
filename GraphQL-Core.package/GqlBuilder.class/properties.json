@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "HenrikNergaard 6/10/2018 15:20",
+	"super" : "Object",
+	"category" : "GraphQL-Core-Builder",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"classes",
+		"resolvers",
+		"operations",
+		"rootObjects"
+	],
+	"name" : "GqlBuilder",
+	"type" : "normal"
+}

@@ -1,0 +1,4 @@
+converting
+asIntScalar
+
+	type := #Int

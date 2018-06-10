@@ -1,0 +1,1 @@
+GqlBuilder creates a GraphQL object schema from classes and roots

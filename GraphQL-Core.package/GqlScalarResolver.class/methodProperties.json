@@ -1,0 +1,12 @@
+{
+	"instance" : {
+		"bindTypeFrom:" : "HenrikNergaard 5/1/2018 00:35",
+		"resolveArray:from:in:" : "HenrikNergaard 5/1/2018 16:58",
+		"resolveField:from:in:" : "HenrikNergaard 5/1/2018 11:33",
+		"resolveObject:from:in:" : "HenrikNergaard 5/1/2018 00:36"
+	},
+	"class" : {
+		"defaultResolvers" : "HenrikNergaard 5/1/2018 00:16",
+		"initialize" : "HenrikNergaard 5/1/2018 00:16"
+	}
+}

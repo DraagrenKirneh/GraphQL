@@ -1,0 +1,4 @@
+testing
+isQuery
+
+	^ type == #query
