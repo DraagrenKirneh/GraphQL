@@ -1,6 +1,6 @@
 accessing
 description
 
-	<gqlQuery: #description args: #() listType: #String>
+	<gqlQuery: #description args: #() type: #String>
 	
 	^ description 

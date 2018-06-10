@@ -1,7 +1,7 @@
 mutation
 post: anUrl named: aName with: description
 	
-	<gqlMutation: #post args: #(url name description) type: #Link>
+	<gqlMutation: #post args: #(url name (description '')) type: #Link>
 	
 	| link |
 

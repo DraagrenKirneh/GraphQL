@@ -1,6 +1,6 @@
 accessing
 createdString
 
-	<gqlQuery: #created args: #() listType: #String>
+	<gqlQuery: #created args: #() type: #String>
 	
 	^ created asStringYMDHM 

@@ -1,6 +1,6 @@
 {
-	"commentStamp" : "HenrikNergaard 6/10/2018 22:17",
-	"super" : "Object",
+	"commentStamp" : "HenrikNergaard 6/10/2018 23:07",
+	"super" : "HzAbstractDelegate",
 	"category" : "GraphQL-Delegate",
 	"classinstvars" : [ ],
 	"pools" : [ ],

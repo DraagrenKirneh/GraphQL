@@ -1,9 +1,9 @@
 public
-handlePost: aRequest
+handlePost: reqIt
 	
 	| result response payload query output vars |
 	
-	payload := STONJSON fromString: aRequest contents.
+	payload := STONJSON fromString: reqIt request contents.
 	vars := payload at: 'variables' ifAbsent: [ nil ].
 	query := payload at: 'query'.
 
