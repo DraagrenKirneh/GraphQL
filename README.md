@@ -18,7 +18,7 @@ Metacello new
 
 | mutation response payload id query |
 	
-ZnServer default delegate: GqlExampleLinkFeed createDelegate.
+(ZnServer startDefaultOn: 8080) delegate: GqlExampleLinkFeed createDelegate.
 
 mutation := { 
 	'query' -> 'mutation { 
