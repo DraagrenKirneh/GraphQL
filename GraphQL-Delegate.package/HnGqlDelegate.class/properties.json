@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "HenrikNergaard 6/10/2018 22:17",
+	"super" : "Object",
+	"category" : "GraphQL-Delegate",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"graphql"
+	],
+	"name" : "HnGqlDelegate",
+	"type" : "normal"
+}

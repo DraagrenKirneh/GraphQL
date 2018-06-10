@@ -1,0 +1,1 @@
+example Graphql delegate accepting post requests
