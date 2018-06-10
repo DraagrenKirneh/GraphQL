@@ -22,7 +22,7 @@ baseline: spec
 			group: 'core' with: #('GraphQL-Core');
 			group: 'schema' with: #('GraphQL-Schema');
 			group: 'tests' with: #('GraphQL-Tests');
-			
-			group: 'default' with: #('core' 'schema' 'tests')
+			group: 'delegate' with: #('GraphQL-Delegate');
+			group: 'default' with: #('core' 'schema' 'tests' 'delegate')
 	
 	]
