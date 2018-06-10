@@ -10,7 +10,7 @@ baseline: spec
 		].		
 				
 		spec baseline: 'HnStream' with: [ 
-			spec repository: 'github://DraagrenKirneh/HnStream/repository'
+			spec repository: 'github://DraagrenKirneh/HnStream'
 		].		
 				
 		spec 
