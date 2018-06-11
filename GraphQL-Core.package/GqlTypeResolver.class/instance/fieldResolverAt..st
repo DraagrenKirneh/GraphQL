@@ -1,4 +1,4 @@
-accessing
+resolving
 fieldResolverAt: aName
 
 	^ fields at: aName 

@@ -1,4 +1,4 @@
-as yet unclassified
+resolving
 resolveObject: anObject from: aQueryField in: anExecutionContext 
 
 	| writer |

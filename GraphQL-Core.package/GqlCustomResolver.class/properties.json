@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "HenrikNergaard 4/29/2018 12:56",
+	"commentStamp" : "HenrikNergaard 6/12/2018 00:13",
 	"super" : "GqlResolvable",
 	"category" : "GraphQL-Core-Resolvers",
 	"classinstvars" : [ ],
@@ -7,7 +7,8 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"type",
-		"value"
+		"value",
+		"forArray"
 	],
 	"name" : "GqlCustomResolver",
 	"type" : "normal"

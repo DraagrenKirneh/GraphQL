@@ -1,4 +1,4 @@
-as yet unclassified
+type
 beSubcription
 
 	type := #subscription

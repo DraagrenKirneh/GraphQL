@@ -1,4 +1,4 @@
-initialization
+accessing
 parent: aParent
 
 	parent := aParent 

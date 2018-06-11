@@ -1,4 +1,4 @@
-instance creation
+resolving
 subResolve: object for: aField in: aContext using: subResolver
 	
 	^ isList 

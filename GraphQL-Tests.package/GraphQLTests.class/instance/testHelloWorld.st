@@ -4,7 +4,7 @@ testHelloWorld
 	| root blr obj dct gql |
 
 	root := GqlRootResolver anonymous.
-	root makeField: [ :f | f name: #hello; asStringScalar; value: #world ].
+	root makeField: [ :f | f name: #hello; forStringScalar; value: #world ].
 		
 	gql := GqlBuilder new
 		addQuery: root;

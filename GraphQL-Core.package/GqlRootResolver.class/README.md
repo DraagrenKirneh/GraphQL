@@ -1,0 +1,1 @@
+RootResolver is the start resolver used directly when resolving a query

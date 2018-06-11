@@ -1,0 +1,4 @@
+accessing
+resolveObject
+
+	forArray := false

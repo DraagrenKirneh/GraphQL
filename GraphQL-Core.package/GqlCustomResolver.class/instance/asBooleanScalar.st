@@ -1,4 +1,0 @@
-converting
-asBooleanScalar
-
-	type := #Boolean

@@ -1,0 +1,4 @@
+accessing
+resolveArray
+
+	forArray := true

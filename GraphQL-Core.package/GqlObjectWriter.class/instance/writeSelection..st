@@ -1,4 +1,4 @@
-initialization
+visiting
 writeSelection: aSelection
 	
 	aSelection acceptVisitor: self

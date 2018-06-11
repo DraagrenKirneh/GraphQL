@@ -1,4 +1,0 @@
-converting
-asIdScalar
-
-	type := #ID

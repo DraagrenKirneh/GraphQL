@@ -1,4 +1,4 @@
-as yet unclassified
+execution
 resolveValue: aValue
 
 	aValue class == GqlVariableReferenceNode ifFalse: [ ^ aValue ].

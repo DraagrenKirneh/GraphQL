@@ -1,0 +1,4 @@
+configuration
+forBooleanScalar
+
+	type := #Boolean

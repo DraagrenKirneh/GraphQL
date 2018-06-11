@@ -1,4 +1,6 @@
-as yet unclassified
+resolving
 subResolve: object for: aField in: aContext using: subResolver
-
-	^ subResolver resolveObject: object from: aField in: aContext
+	
+	^ forArray 
+		ifTrue: [ subResolver resolveArray: object from: aField in: aContext ]
+		ifFalse: [ subResolver resolveObject: object from: aField in: aContext ]

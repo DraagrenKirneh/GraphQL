@@ -1,0 +1,4 @@
+configuration
+forFloatScalar
+
+	type := #Float

@@ -1,4 +1,4 @@
-as yet unclassified
+binding
 bindTypeFrom: aDictionary
 
 	type ifNil: [ self error ].

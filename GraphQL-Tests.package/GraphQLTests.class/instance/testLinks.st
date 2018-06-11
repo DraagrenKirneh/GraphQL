@@ -11,7 +11,7 @@ testLinks
 
 	link := GqlTypeResolver named: #Link.
 	link makeField: [ :f |
-		f name: #id; asIntScalar; value: [ :c | c yourself ]
+		f name: #id; forIntScalar; value: [ :c | c yourself ]
 	].
 		
 	gql := GqlBuilder new

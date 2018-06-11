@@ -1,4 +1,4 @@
-as yet unclassified
+resolving
 resolveField: aField from: aParent in: anExecutionContext
 		
 	| resolvedArgs orderedArgs object |

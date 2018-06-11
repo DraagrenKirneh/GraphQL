@@ -1,4 +1,4 @@
-as yet unclassified
+resolving
 resolveArray: aValue from: aField in: aContext 
 	
 	^ aValue

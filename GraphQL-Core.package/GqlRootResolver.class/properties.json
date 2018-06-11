@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "HenrikNergaard 6/12/2018 00:17",
 	"super" : "GqlTypeResolver",
 	"category" : "GraphQL-Core-Resolvers",
 	"classinstvars" : [ ],

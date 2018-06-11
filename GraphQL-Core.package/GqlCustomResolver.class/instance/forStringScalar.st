@@ -1,0 +1,4 @@
+configuration
+forStringScalar
+	
+	type := #String

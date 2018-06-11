@@ -1,1 +1,1 @@
-I Resolve a concrete object 
+I Resolve a concrete custom object 

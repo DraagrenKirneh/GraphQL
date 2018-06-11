@@ -1,4 +1,4 @@
-as yet unclassified
+resolving
 argsFromMap: aCollection
 	
 	^ args collect: [ :each | 

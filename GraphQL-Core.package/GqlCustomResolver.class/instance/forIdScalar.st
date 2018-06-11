@@ -1,0 +1,4 @@
+configuration
+forIdScalar
+
+	type := #ID
