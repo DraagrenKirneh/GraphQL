@@ -1,0 +1,1 @@
+GqlTypeParser parses type definitions aka [String!]

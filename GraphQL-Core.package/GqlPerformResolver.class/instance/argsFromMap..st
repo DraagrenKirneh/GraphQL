@@ -1,8 +1,8 @@
 resolving
 argsFromMap: aCollection
 	
-	^ args collect: [ :each | 
-		aCollection at: each 
+	^ args collect: [ :argument | 
+		aCollection at: argument name 
 			ifPresent: [ :val | val value ] 
-	 	 	ifAbsent: [ defaults at: each ]
+	 	 	ifAbsent: [ argument defaultValue ]
 	] as: Array 

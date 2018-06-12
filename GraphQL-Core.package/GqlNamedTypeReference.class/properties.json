@@ -1,13 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "GqlSchemaType",
-	"category" : "GraphQL-Schema-Nodes",
+	"super" : "GqlTypeReference",
+	"category" : "GraphQL-Core-Parsing",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
 		"name"
 	],
-	"name" : "GqlSchemaNamedType",
+	"name" : "GqlNamedTypeReference",
 	"type" : "normal"
 }

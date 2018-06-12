@@ -1,12 +1,12 @@
 mutation
 updateLink: anId url: anUrl with: aDescription
 	
-	<gqlMutation: #updateLink args: #(id url description) type: #Link>
+	<gqlMutation: #updateLink args: #((id ID) (url String) (description String '')) type: #Link>
 	
 	| link |
 	
 	link := self linkAt: anId.
-	anUrl ifNotNil: [ link url: anUrl ].
-	aDescription ifNotNil: [ link description: aDescription ].
+	link url: anUrl.
+	link description: aDescription.
 	
 	^ link
