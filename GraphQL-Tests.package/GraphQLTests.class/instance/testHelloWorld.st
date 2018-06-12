@@ -1,7 +1,7 @@
 tests
 testHelloWorld
 
-	| root blr obj dct gql |
+	| root obj dct gql |
 
 	root := GqlRootResolver anonymous.
 	root makeField: [ :f | f name: #hello; forStringScalar; value: #world ].

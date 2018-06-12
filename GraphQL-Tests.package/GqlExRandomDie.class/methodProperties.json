@@ -2,14 +2,13 @@
 	"instance" : {
 		"initialize" : "HenrikNergaard 4/24/2018 23:12",
 		"roll" : "HenrikNergaard 5/1/2018 17:12",
-		"roll:" : "HenrikNergaard 6/12/2018 23:54",
+		"roll:" : "HenrikNergaard 6/13/2018 00:49",
 		"sides" : "HenrikNergaard 4/30/2018 11:10",
 		"sides:" : "HenrikNergaard 4/30/2018 11:10"
 	},
 	"class" : {
 		"gqlAlias" : "HenrikNergaard 4/30/2018 11:14",
 		"rootResolver" : "HenrikNergaard 6/12/2018 23:54",
-		"sides:" : "HenrikNergaard 6/10/2018 15:01",
-		"systemIconName" : "HenrikNergaard 6/10/2018 13:25"
+		"sides:" : "HenrikNergaard 6/10/2018 15:01"
 	}
 }

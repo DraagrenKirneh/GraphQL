@@ -1,4 +1,4 @@
 pragma keywords
 queryKeywords
 
-	^ #(gqlQuery:args:listType: gqlQuery:args:type:)
+	^ #(gqlQuery:args:type:)

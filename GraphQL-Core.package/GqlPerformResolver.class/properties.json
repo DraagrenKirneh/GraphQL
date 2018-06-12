@@ -9,7 +9,6 @@
 		"type",
 		"selector",
 		"args",
-		"defaults",
 		"isList"
 	],
 	"name" : "GqlPerformResolver",

@@ -1,6 +1,6 @@
 accessing
 args
 
-	<gqlQuery: #args args: #() listType: #__InputValue>
+	<gqlQuery: #args args: #() type: '[__InputValue]'>
 	
 	^ object args collect: [ :each | Gql__InputValue wrap: each ]

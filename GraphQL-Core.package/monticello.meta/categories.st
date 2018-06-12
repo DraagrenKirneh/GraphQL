@@ -6,3 +6,4 @@ SystemOrganization addCategory: 'GraphQL-Core-Models'!
 SystemOrganization addCategory: 'GraphQL-Core-Parsing'!
 SystemOrganization addCategory: 'GraphQL-Core-Resolvers'!
 SystemOrganization addCategory: 'GraphQL-Core-Utilities'!
+SystemOrganization addCategory: 'GraphQL-Core-type'!

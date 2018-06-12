@@ -1,4 +1,4 @@
 pragma keywords
 mutationKeywords
 
-	^ #(gqlMutation:args:listType: gqlMutation:args:type:)
+	^ #(gqlMutation:args:type:)

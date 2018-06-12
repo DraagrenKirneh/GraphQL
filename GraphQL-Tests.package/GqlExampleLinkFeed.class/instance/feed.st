@@ -1,7 +1,7 @@
 query
 feed
 
-	<gqlQuery: #feed args: #() listType: #Link>
+	<gqlQuery: #feed args: #() type: '[Link]'>
 	
 	^ feed
 	

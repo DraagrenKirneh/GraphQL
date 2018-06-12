@@ -5,7 +5,6 @@ fromClass: aClass
 	
 	resolver := self named: aClass gqlAlias.	
 	resolver 
-		addFields: (self pragmaFieldsIn: aClass);
-		addFields: (self pragmaArrayFieldsIn: aClass).		
+		addFields: (self pragmaFieldsIn: aClass).
 		
 	^ resolver 

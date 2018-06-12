@@ -1,4 +1,4 @@
 configuration
 forIdScalar
 
-	type := #ID
+	self type: #ID

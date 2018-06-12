@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "GqlTypeReference",
-	"category" : "GraphQL-Core-Parsing",
+	"category" : "GraphQL-Core-type",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

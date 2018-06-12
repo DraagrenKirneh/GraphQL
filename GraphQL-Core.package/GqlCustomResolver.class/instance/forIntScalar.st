@@ -1,4 +1,4 @@
 configuration
 forIntScalar
 
-	type := #Int
+	self type: #Int

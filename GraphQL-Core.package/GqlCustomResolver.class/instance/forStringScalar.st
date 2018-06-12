@@ -1,4 +1,4 @@
 configuration
 forStringScalar
 	
-	type := #String
+	self type: #String

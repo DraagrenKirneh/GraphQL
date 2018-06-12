@@ -1,4 +1,4 @@
 configuration
 forBooleanScalar
 
-	type := #Boolean
+	self type: #Boolean

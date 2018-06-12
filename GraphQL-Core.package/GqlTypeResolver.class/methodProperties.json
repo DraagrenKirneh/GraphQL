@@ -7,7 +7,6 @@
 		"fields" : "HenrikNergaard 6/9/2018 21:30",
 		"initialize" : "HenrikNergaard 4/22/2018 12:57",
 		"introspect" : "HenrikNergaard 6/10/2018 13:13",
-		"makeArrayField:" : "HenrikNergaard 6/12/2018 00:16",
 		"makeField:" : "HenrikNergaard 5/3/2018 00:45",
 		"resolveArray:from:in:" : "HenrikNergaard 5/4/2018 20:19",
 		"resolveField:from:in:" : "HenrikNergaard 5/1/2018 11:34",
@@ -17,8 +16,7 @@
 	"class" : {
 		"anonymous" : "HenrikNergaard 4/30/2018 21:40",
 		"fieldPragma:in:" : "HenrikNergaard 6/9/2018 21:14",
-		"fromClass:" : "HenrikNergaard 5/1/2018 13:52",
-		"pragmaArrayFieldsIn:" : "HenrikNergaard 5/1/2018 22:41",
+		"fromClass:" : "HenrikNergaard 6/13/2018 00:53",
 		"pragmaFieldsIn:" : "HenrikNergaard 5/1/2018 23:03"
 	}
 }

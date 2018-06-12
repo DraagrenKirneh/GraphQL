@@ -3,4 +3,4 @@ interfaces
 
 	"OBJECT only"
 
-	<gqlQuery: #interfaces args: #() listType: #__Type>
+	<gqlQuery: #interfaces args: #() type: '[__Type]'>

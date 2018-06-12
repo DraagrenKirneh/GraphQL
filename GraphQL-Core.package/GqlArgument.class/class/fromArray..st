@@ -6,7 +6,7 @@ fromArray: anArray
 	reader := anArray hnReadstream.
 	argument := self new
 		name: reader next;
-		type: reader next;
+		type: (GqlTypeParser parse: reader next);
 		yourself.
 	
 	reader atEnd ifFalse: [ 

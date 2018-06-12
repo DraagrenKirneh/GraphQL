@@ -13,7 +13,7 @@ fromPragma: aPragma
 	^ self new 
 		name: fields first;
 		arguments: args;			
-		type: fields third;
+		type: (GqlTypeParser parse: fields third);
 		selector: aPragma methodSelector;
 		isList: (aPragma keyword endsWith: #listType:)
 		yourself	

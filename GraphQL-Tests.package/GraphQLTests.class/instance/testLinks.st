@@ -5,8 +5,8 @@ testLinks
 
 	links := { 1 . 2 . 3 . 4 }.
 	root := GqlRootResolver named: #NamedQuery.
-	root makeArrayField: [ :f |
-		f name: #feed; type: #Link; value: links 
+	root makeField: [ :f |
+		f name: #feed; type: '[Link]'; value: links 
 	].
 
 	link := GqlTypeResolver named: #Link.

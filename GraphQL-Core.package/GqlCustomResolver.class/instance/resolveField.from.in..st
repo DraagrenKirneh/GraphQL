@@ -9,4 +9,4 @@ resolveField: aField from: aParent in: anExecutionContext
 		with: args 
 		in: anExecutionContext userContext.
 		
-	^ self subResolve: object for: aField in: anExecutionContext using: type.
+	^ type resolve: object from: aField in: anExecutionContext
