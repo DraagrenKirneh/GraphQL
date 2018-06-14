@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "GqlObject",
+	"category" : "GraphQL-Core-type",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"arguments"
+	],
+	"name" : "GqlField",
+	"type" : "normal"
+}

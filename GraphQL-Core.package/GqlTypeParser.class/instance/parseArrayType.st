@@ -1,4 +1,4 @@
-parsing
+parsing - type
 parseArrayType
 
 	| arrayType |

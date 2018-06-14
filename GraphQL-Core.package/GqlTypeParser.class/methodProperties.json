@@ -1,9 +1,14 @@
 {
 	"instance" : {
-		"parse" : "HenrikNergaard 6/13/2018 00:11",
+		"parse" : "HenrikNergaard 6/13/2018 19:33",
+		"parseArgument" : "HenrikNergaard 6/13/2018 19:26",
+		"parseArgumentList" : "HenrikNergaard 6/13/2018 19:25",
 		"parseArrayType" : "HenrikNergaard 6/13/2018 00:14",
+		"parseField" : "HenrikNergaard 6/13/2018 19:33",
 		"parseNamedType" : "HenrikNergaard 6/13/2018 00:34",
 		"parseType" : "HenrikNergaard 6/13/2018 00:10"
 	},
-	"class" : { }
+	"class" : {
+		"parseField:" : "HenrikNergaard 6/13/2018 19:40"
+	}
 }

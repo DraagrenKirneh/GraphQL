@@ -1,4 +1,0 @@
-accessing
-returnsArray
-
-	isList := true

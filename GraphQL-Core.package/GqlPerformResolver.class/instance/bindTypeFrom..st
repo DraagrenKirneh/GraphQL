@@ -1,4 +1,4 @@
 binding
 bindTypeFrom: aDictionary
 
-	type bindFrom: aDictionary.
+	field type bindFrom: aDictionary.

@@ -1,6 +1,6 @@
 accessing
 url
-
-	<gqlQuery: #url args: #() type: #String>
+	
+	<gqlQuery: 'url: String'>
 	
 	^ url 

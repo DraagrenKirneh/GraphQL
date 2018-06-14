@@ -8,4 +8,4 @@ resolveField: aField from: aParent in: anExecutionContext
 	
 	object := aParent perform: selector withArguments: orderedArgs.
 			
-	^ type resolve: object from: aField in: anExecutionContext		
+	^ field type resolve: object from: aField in: anExecutionContext		

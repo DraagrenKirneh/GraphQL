@@ -1,7 +1,7 @@
 mutation
 post: anUrl named: aName with: description
-	
-	<gqlMutation: #post args: #(url name (description '')) type: #Link>
+		
+	<gqlMutation: 'post(url: String!, name: String!, description: String): Link'>
 	
 	| link |
 
@@ -14,3 +14,4 @@ post: anUrl named: aName with: description
 	feed at: link id put: link.
 	
 	^ link 
+	

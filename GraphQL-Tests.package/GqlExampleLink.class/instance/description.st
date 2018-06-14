@@ -1,6 +1,6 @@
 accessing
 description
-
-	<gqlQuery: #description args: #() type: #String>
+	
+	<gqlQuery: 'description : String'>
 	
 	^ description 

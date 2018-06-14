@@ -5,6 +5,6 @@ createMutationResolver: anObject
 	
 	resolver := self rootResolverFor: anObject 
 		type: #gqlMutation 
-		fields: self mutationKeywords.
+		field: #gqlMutation:.
 	
 	resolver 	ifNotNil: [ operations addMutation: resolver ].

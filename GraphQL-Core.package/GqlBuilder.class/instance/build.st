@@ -2,7 +2,7 @@ building
 build
 
 	classes 
-		collect: [ :each | GqlTypeResolver fromClass: each ]
+		collect: [ :each |	self createTypeResolver: each ]
 		thenDo: [ :each | resolvers at: each name put: each ].
 	
 	rootObjects do: [ :each | 

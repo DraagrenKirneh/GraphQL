@@ -1,6 +1,6 @@
 mutation
 removeLink: anId
 	
-	<gqlMutation: #removeLink args: #(id) type: #Link>
+	<gqlMutation: 'removeLink(id: ID!): Link'>
 				
 	^ feed removeKey: anId

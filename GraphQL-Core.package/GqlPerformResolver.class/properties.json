@@ -6,10 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"type",
 		"selector",
-		"args",
-		"isList"
+		"field"
 	],
 	"name" : "GqlPerformResolver",
 	"type" : "normal"

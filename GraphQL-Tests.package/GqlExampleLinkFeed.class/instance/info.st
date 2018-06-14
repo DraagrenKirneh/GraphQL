@@ -1,7 +1,7 @@
 query
 info
-
-	<gqlQuery: #info args: #() type: #String>
+	
+	<gqlQuery: 'info: String'>
 	
 	^ 'This is a description'
 	

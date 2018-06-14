@@ -1,31 +1,32 @@
 tests
 testLinks
 
-	| root links gql link result |
-
-	links := { 1 . 2 . 3 . 4 }.
-	root := GqlRootResolver named: #NamedQuery.
-	root makeField: [ :f |
-		f name: #feed; type: '[Link]'; value: links 
-	].
-
-	link := GqlTypeResolver named: #Link.
-	link makeField: [ :f |
-		f name: #id; forIntScalar; value: [ :c | c yourself ]
-	].
-		
-	gql := GqlBuilder new
-		addQuery: root;
-		addQuery: (GqlTypeResolver named: #stuff);
-		addResolver: link;
+	| gql result id item name |
+	
+	gql := GqlBuilder new 
+		classes: { GqlExampleLink };
+		roots: { GqlExampleLinkFeed new };
 		build.
 
-	result := gql execute: 'query NamedQuery { 
-		feed { id } 		
+	result := gql execute: 'mutation { 
+		post(url: "www.pharo.org", name: "Pharo website", description: "Website for Pharo Smalltalk"){
+			id
+		}
 	}'.
+	
+	id := { 'data' . 'post' . 'id' } inject: result into: [ :dct :entry |
+		dct at: entry	
+	].
 			
-	self assert: result equals: { 'data' -> { 
-		'feed' -> (
-			{ 1 . 2 . 3 . 4 } collect: [ :each | { 'id' -> each } asDictionary ]
-		) } asDictionary 
-	} asDictionary
+	item := gql execute: 'query \{ 
+		link(id: "{1}") \{ 
+			name
+		}
+	}' formatVariables: { id }.
+	
+	name := { 'data' . 'link' . 'name' } inject: item into: [ :dct :entry |
+		dct at: entry	
+	].
+
+	self assert: name equals: 'Pharo website'
+	

@@ -1,6 +1,6 @@
 query
 linkAt: anId
-
-	<gqlQuery: #link args: #(id) type: #Link>
+	
+	<gqlQuery: 'link(id: ID!): Link'>
 
 	^ feed at: anId 

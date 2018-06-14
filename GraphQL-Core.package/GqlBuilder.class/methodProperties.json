@@ -5,22 +5,21 @@
 		"addResolver:" : "HenrikNergaard 6/10/2018 14:35",
 		"addRoots:" : "HenrikNergaard 6/10/2018 14:41",
 		"bindTypes" : "HenrikNergaard 6/10/2018 14:43",
-		"build" : "HenrikNergaard 6/10/2018 14:41",
+		"build" : "HenrikNergaard 6/13/2018 20:18",
 		"classes:" : "HenrikNergaard 5/4/2018 20:27",
-		"createMutationResolver:" : "HenrikNergaard 5/4/2018 23:21",
-		"createQueryResolver:" : "HenrikNergaard 5/4/2018 23:20",
-		"createSubscriptionResolver:" : "HenrikNergaard 5/4/2018 23:22",
-		"fieldResolversFor:in:" : "HenrikNergaard 5/4/2018 23:13",
+		"createMutationResolver:" : "HenrikNergaard 6/13/2018 20:11",
+		"createQueryResolver:" : "HenrikNergaard 6/14/2018 21:17",
+		"createSubscriptionResolver:" : "HenrikNergaard 6/14/2018 21:18",
+		"createTypeResolver:" : "HenrikNergaard 6/13/2018 20:20",
+		"fieldResolvers:in:" : "HenrikNergaard 6/13/2018 20:14",
 		"initialize" : "HenrikNergaard 6/12/2018 23:57",
-		"mutationKeywords" : "HenrikNergaard 6/13/2018 00:52",
 		"operations" : "HenrikNergaard 6/10/2018 14:38",
 		"performPragma:in:" : "HenrikNergaard 5/4/2018 22:50",
-		"queryKeywords" : "HenrikNergaard 6/13/2018 00:51",
-		"rootResolverFor:type:fields:" : "HenrikNergaard 6/10/2018 14:43",
-		"roots:" : "HenrikNergaard 6/10/2018 14:41",
-		"subscriptionKeywords" : "HenrikNergaard 6/13/2018 00:51"
+		"rootResolverFor:type:field:" : "HenrikNergaard 6/14/2018 21:18",
+		"roots:" : "HenrikNergaard 6/14/2018 21:18"
 	},
 	"class" : {
+		"buildType:" : "HenrikNergaard 6/13/2018 20:19",
 		"classes:roots:" : "HenrikNergaard 5/4/2018 20:41"
 	}
 }

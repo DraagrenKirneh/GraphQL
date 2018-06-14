@@ -1,4 +1,4 @@
-parsing
+parsing - type
 parseType
 	
 	| type |

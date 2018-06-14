@@ -3,8 +3,6 @@ createSubscriptionResolver: anObject
 	
 	| resolver |
 	
-	resolver := self rootResolverFor: anObject 
-		type: #gqlSubscription
-		fields: self subscriptionKeywords.
+	resolver := self rootResolverFor: anObject 	type: #gqlSubscription field: #gqlSubscription:.
 	
 	resolver 	ifNotNil: [ operations addSubscription: resolver ].

@@ -1,20 +1,18 @@
 {
 	"instance" : {
-		"args" : "HenrikNergaard 6/9/2018 21:36",
-		"argsFromMap:" : "HenrikNergaard 6/12/2018 19:44",
+		"args" : "HenrikNergaard 6/13/2018 19:54",
+		"argsFromMap:" : "HenrikNergaard 6/13/2018 19:54",
 		"arguments:" : "HenrikNergaard 4/24/2018 23:54",
-		"bindTypeFrom:" : "HenrikNergaard 6/13/2018 00:36",
-		"initialize" : "HenrikNergaard 5/4/2018 23:02",
+		"bindTypeFrom:" : "HenrikNergaard 6/13/2018 20:00",
+		"field" : "HenrikNergaard 6/13/2018 19:55",
+		"field:" : "HenrikNergaard 6/13/2018 19:55",
 		"introspect" : "HenrikNergaard 6/10/2018 13:13",
-		"isList:" : "HenrikNergaard 5/4/2018 23:07",
-		"resolveField:from:in:" : "HenrikNergaard 6/13/2018 00:40",
-		"returnsArray" : "HenrikNergaard 5/4/2018 23:02",
+		"resolveField:from:in:" : "HenrikNergaard 6/13/2018 20:00",
 		"selector:" : "HenrikNergaard 4/24/2018 23:37",
 		"type" : "HenrikNergaard 4/24/2018 23:37",
 		"type:" : "HenrikNergaard 4/24/2018 23:37"
 	},
 	"class" : {
-		"fromPragma:" : "HenrikNergaard 6/13/2018 00:36",
-		"verifyPragma:" : "HenrikNergaard 5/4/2018 23:12"
+		"fromPragma:" : "HenrikNergaard 6/13/2018 19:56"
 	}
 }

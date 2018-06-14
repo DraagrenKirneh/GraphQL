@@ -1,6 +1,6 @@
 initialization
 roll
-
-	<gqlQuery: #rollOnce args: #() type: #Int>
 	
+	<gqlQuery: 'rollOnce : Int'>
+
 	^ sides atRandom  
