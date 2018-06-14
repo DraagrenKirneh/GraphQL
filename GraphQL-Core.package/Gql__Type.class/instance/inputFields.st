@@ -3,4 +3,4 @@ inputFields
 
 	"OBJECT only"
 
-	<gqlQuery: #inputFields args: #() type: '[__InputValue]'>
+	<gqlQuery: 'inputFields: [__InputValue!]'>

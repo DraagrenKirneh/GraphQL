@@ -1,6 +1,6 @@
 accessing
 name
 
-	<gqlQuery: #name args: #() type: #String>
+	<gqlQuery: 'name: String!'>
 	
 	^ object name

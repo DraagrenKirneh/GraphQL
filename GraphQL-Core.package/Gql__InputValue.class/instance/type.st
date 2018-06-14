@@ -1,4 +1,6 @@
 accessing
 type
 
-	<gqlQuery: #type args: #() type: #__Type>
+	<gqlQuery: 'type: __Type'>
+	
+	^ Gql__Type wrap: object type
