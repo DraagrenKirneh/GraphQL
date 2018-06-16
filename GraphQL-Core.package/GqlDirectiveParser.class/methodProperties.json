@@ -1,0 +1,13 @@
+{
+	"instance" : {
+		"parse" : "HenrikNergaard 6/15/2018 22:33",
+		"parseArgumentDefinitions" : "HenrikNergaard 6/15/2018 22:58",
+		"parseDirective" : "HenrikNergaard 6/15/2018 22:58",
+		"parseDirectiveLocations" : "HenrikNergaard 6/15/2018 23:00"
+	},
+	"class" : {
+		"DirectiveLocation" : "HenrikNergaard 6/15/2018 22:37",
+		"executableDirectiveLocations" : "HenrikNergaard 6/15/2018 22:36",
+		"typeSystemDirectiveLocations" : "HenrikNergaard 6/15/2018 22:36"
+	}
+}
