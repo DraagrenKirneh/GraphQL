@@ -6,7 +6,9 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"arguments"
+		"arguments",
+		"description",
+		"directives"
 	],
 	"name" : "GqlField",
 	"type" : "normal"
