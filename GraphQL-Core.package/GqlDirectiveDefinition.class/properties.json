@@ -11,6 +11,6 @@
 		"arguments",
 		"locations"
 	],
-	"name" : "GqlDirective",
+	"name" : "GqlDirectiveDefinition",
 	"type" : "normal"
 }

@@ -1,4 +1,4 @@
 accessing
-decription
+description
 
 	^ description 

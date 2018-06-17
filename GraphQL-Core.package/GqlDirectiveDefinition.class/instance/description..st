@@ -1,4 +1,4 @@
 accessing
-decription: aDecription
+description: aDecription
 
 	description := aDecription 

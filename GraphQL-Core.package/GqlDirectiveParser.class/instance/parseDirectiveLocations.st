@@ -6,7 +6,7 @@ parseDirectiveLocations
 	self peekFor: $|.
 	
 	items := Array hnStreamContents: [ :writer |
-		[ writer << self parseName ] doWhileFalse: [ self peekFor: $| ]
+		[ (writer put: self parseName) ] doWhileTrue: [ self peekFor: $| ]
 	].
 
 	^ items

@@ -9,8 +9,10 @@ parseDirective
 	
 	self expectChar: $@.
 	
-	directive := GqlDirective named: self parseName.
+	directive := GqlDirectiveDefinition named: self parseName.
 	directive 
+		description: description;
 		arguments: self parseArgumentDefinitions;
-		locations: self parseDirectiveLocations
-	
+		locations: self parseDirectiveLocations.
+		
+	^ directive 
