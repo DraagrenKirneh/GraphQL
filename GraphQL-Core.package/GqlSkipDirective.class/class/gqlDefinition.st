@@ -1,0 +1,4 @@
+filein/out
+gqlDefinition
+
+	^ 'directive @skip(if: Boolean!) on FIELD | FRAGMENT_SPREAD | INLINE_FRAGMENT'

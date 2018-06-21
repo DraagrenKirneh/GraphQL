@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "GqlBaseParser",
+	"category" : "GraphQL-Core-Parsing",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"DirectiveLocations"
+	],
+	"instvars" : [ ],
+	"name" : "GqlArgumentsDefinitionParser",
+	"type" : "normal"
+}

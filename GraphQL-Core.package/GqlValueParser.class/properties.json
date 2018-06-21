@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "HenrikNergaard 6/17/2018 20:21",
+	"super" : "GqlBaseParser",
+	"category" : "GraphQL-Core-Parsing",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"DirectiveLocations"
+	],
+	"instvars" : [ ],
+	"name" : "GqlValueParser",
+	"type" : "normal"
+}

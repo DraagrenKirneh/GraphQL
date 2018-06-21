@@ -2,7 +2,7 @@ instance creation
 fromArray: anArray
 
 	| reader argument |
-		
+	self halt.
 	reader := anArray hnReadstream.
 	argument := self new
 		name: reader next;

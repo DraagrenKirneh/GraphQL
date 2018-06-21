@@ -1,4 +1,4 @@
-parsing - argument
+parsing
 parseArgument
 
 	| argument |
@@ -7,10 +7,10 @@ parseArgument
 	
 	self expectColon.
 	
-	argument type: self parseType.
+	argument type: self parseTypeDefinition.
 	
 	(self peekFor: $=) ifTrue: [ 
-		argument defaultValue: (self parseValueAs: argument type name)
+		argument defaultValue: (GqlValueParser parse: reader)
 	].
 	
 	^ argument 

@@ -5,14 +5,17 @@ parseDirective
 	
 	description := self parseOptionalString.
 	
-	(self parseName = 'directive') ifFalse: [ self error ].
+	self expectName: 'directive'. 
 	
 	self expectChar: $@.
 	
 	directive := GqlDirectiveDefinition named: self parseName.
 	directive 
 		description: description;
-		arguments: self parseArgumentDefinitions;
-		locations: self parseDirectiveLocations.
+		arguments: self parseArgumentDefinitions.
+		
+	self expectName: 'on'.
+		
+	directive locations: self parseDirectiveLocations.
 		
 	^ directive 
