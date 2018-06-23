@@ -1,4 +1,4 @@
 accessing
 enumValues: includeDeprecated
 
-	<gqlQuery: 'enumValues(includeDeprecated: Boolean = false): [__EnumValue!]'>
+	<gqlField: 'enumValues(includeDeprecated: Boolean = false): [__EnumValue!]'>

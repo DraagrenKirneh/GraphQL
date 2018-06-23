@@ -3,5 +3,5 @@ ofType
 
 	"OBJECT only"
 
-	<gqlQuery: 'ofType: __Type'>
+	<gqlField: 'ofType: __Type'>
 	

@@ -1,6 +1,6 @@
 accessing
 name
 	
-	<gqlQuery: 'name : String'>
+	<gqlField: 'name : String'>
 	
 	^ name

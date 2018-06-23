@@ -2,9 +2,11 @@
 	"instance" : {
 		"graphql:" : "HenrikNergaard 5/5/2018 17:03",
 		"handleOptions:" : "HenrikNergaard 6/10/2018 22:16",
-		"handlePost:" : "HenrikNergaard 6/10/2018 23:17",
+		"handlePost:" : "HenrikNergaard 6/23/2018 19:53",
 		"handleRequestAt:" : "HenrikNergaard 6/10/2018 23:03",
 		"setCorsHeaders:" : "HenrikNergaard 5/6/2018 01:26"
 	},
-	"class" : { }
+	"class" : {
+		"restart" : "HenrikNergaard 6/23/2018 20:37"
+	}
 }

@@ -4,11 +4,11 @@ testLinks
 	| gql result id item name |
 	
 	gql := GqlBuilder new 
-		classes: { GqlExampleLink };
+		classes: { GqlExampleLink . GqlExampleVote . GqlExampleUser };
 		roots: { GqlExampleLinkFeed new };
 		build.
 
-	result := gql execute: 'mutation { 
+	result := gql execute: 'mutation PostMutation { 
 		post(url: "www.pharo.org", name: "Pharo website", description: "Website for Pharo Smalltalk"){
 			id
 		}
@@ -18,7 +18,7 @@ testLinks
 		dct at: entry	
 	].
 			
-	item := gql execute: 'query \{ 
+	item := gql execute: 'query FeedQuery\{ 
 		link(id: "{1}") \{ 
 			name
 		}

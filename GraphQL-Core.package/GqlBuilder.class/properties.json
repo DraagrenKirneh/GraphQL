@@ -9,7 +9,8 @@
 		"classes",
 		"resolvers",
 		"operations",
-		"rootObjects"
+		"rootObjects",
+		"lut"
 	],
 	"name" : "GqlBuilder",
 	"type" : "normal"

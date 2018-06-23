@@ -1,7 +1,7 @@
 mutation
 post: anUrl named: aName with: description
 		
-	<gqlMutation: 'post(url: String!, name: String!, description: String): Link'>
+	<gqlOperation: 'mutation PostMutation post(url: String!, name: String!, description: String): Link'>
 	
 	| link |
 

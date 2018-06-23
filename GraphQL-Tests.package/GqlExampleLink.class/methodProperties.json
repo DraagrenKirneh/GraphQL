@@ -1,14 +1,17 @@
 {
 	"instance" : {
-		"createdString" : "HenrikNergaard 6/13/2018 20:02",
-		"description" : "HenrikNergaard 6/13/2018 20:02",
+		"createVote:" : "HenrikNergaard 6/23/2018 20:58",
+		"createdString" : "HenrikNergaard 6/23/2018 22:55",
+		"description" : "HenrikNergaard 6/23/2018 22:55",
 		"description:" : "HenrikNergaard 5/1/2018 18:24",
-		"id" : "HenrikNergaard 6/13/2018 19:37",
-		"initialize" : "HenrikNergaard 5/6/2018 15:37",
-		"name" : "HenrikNergaard 6/13/2018 20:02",
+		"id" : "HenrikNergaard 6/23/2018 22:55",
+		"initialize" : "HenrikNergaard 6/23/2018 21:12",
+		"name" : "HenrikNergaard 6/23/2018 22:55",
 		"name:" : "HenrikNergaard 5/6/2018 01:37",
-		"url" : "HenrikNergaard 6/13/2018 20:02",
-		"url:" : "HenrikNergaard 5/1/2018 18:23"
+		"url" : "HenrikNergaard 6/23/2018 22:55",
+		"url:" : "HenrikNergaard 5/1/2018 18:23",
+		"user" : "HenrikNergaard 6/23/2018 22:56",
+		"votes" : "HenrikNergaard 6/23/2018 22:56"
 	},
 	"class" : {
 		"gqlAlias" : "HenrikNergaard 5/2/2018 23:53"

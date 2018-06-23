@@ -1,6 +1,7 @@
 accessing
 createdString
 	
-	<gqlQuery: 'created : String'>
+	<gqlField: 'created : String'>
+	<gqlField: 'createdAt : String'>
 	
-	^ created asStringYMDHM 
+	^ created printString "asStringYMDHM"
