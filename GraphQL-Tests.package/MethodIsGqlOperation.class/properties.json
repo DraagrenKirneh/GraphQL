@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "AbstractMethodIconAction",
+	"category" : "GraphQL-Tests-Parsing",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "MethodIsGqlOperation",
+	"type" : "normal"
+}
