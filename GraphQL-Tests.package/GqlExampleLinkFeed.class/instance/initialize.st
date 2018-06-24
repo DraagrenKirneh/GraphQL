@@ -5,4 +5,4 @@ initialize
 	
 	feed := Dictionary new.
 	
-	self post: 'vg.no' named: 'vg' with: 'item'.
+	self post: 'vg.no' with: 'item'.
