@@ -9,7 +9,7 @@ testLinks
 		build.
 
 	result := gql execute: 'mutation PostMutation { 
-		post(url: "www.pharo.org", name: "Pharo website", description: "Website for Pharo Smalltalk"){
+		post(url: "www.pharo.org", description: "Website for Pharo Smalltalk"){
 			id
 		}
 	}'.
@@ -20,13 +20,13 @@ testLinks
 			
 	item := gql execute: 'query FeedQuery\{ 
 		link(id: "{1}") \{ 
-			name
+			description
 		}
 	}' formatVariables: { id }.
 	
-	name := { 'data' . 'link' . 'name' } inject: item into: [ :dct :entry |
+	name := { 'data' . 'link' . 'description' } inject: item into: [ :dct :entry |
 		dct at: entry	
 	].
 
-	self assert: name equals: 'Pharo website'
+	self assert: name equals: 'Website for Pharo Smalltalk'
 	
