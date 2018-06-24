@@ -6,14 +6,14 @@ buildRoot: aRootObject
 	pragmas := Pragma allNamed: #gqlOperation: from: aRootObject class to: Object.	
 	pragmas do: [ :each | | op field |
 		op := (GqlOperationParser parse: each arguments first).	
-		root := lut at: op first -> op second ifAbsentPut: [ 
+		root := lut at: op key ifAbsentPut: [ 
 			GqlRootResolver new  
-				name: op second;
+				name: op key name;
 				object: aRootObject;
 				yourself	
 	 	].
 		
-		field := GqlPerformResolver fromField: op third selector: each methodSelector.
+		field := GqlPerformResolver fromField: op value selector: each methodSelector.
 		root addField: field.
 	].
 

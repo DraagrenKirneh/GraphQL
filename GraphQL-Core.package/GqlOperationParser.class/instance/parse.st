@@ -7,4 +7,4 @@ parse
 	name := self parseName.
 	field := GqlTypeParser parseField: reader.
 	
-	^ { operation . name . field }
+	^ (GqlOperationKey operation: operation name: name) -> field

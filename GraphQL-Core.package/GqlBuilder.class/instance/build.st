@@ -8,8 +8,8 @@ build
 	rootObjects do: [ :each | self buildRoot: each ].
 
 	lut associationsDo: [ :assoc | | dct |
-		dct := operations setAt: assoc key key.
-		dct at: assoc key value put: assoc value		
+		dct := operations setAt: assoc key operation.
+		dct at: assoc key name put: assoc value		
 	].
 
 	self bindTypes.

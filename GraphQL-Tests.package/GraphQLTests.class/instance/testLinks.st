@@ -4,7 +4,7 @@ testLinks
 	| gql result id item name |
 	
 	gql := GqlBuilder new 
-		classes: { GqlExampleLink . GqlExampleVote . GqlExampleUser };
+		types: { GqlExampleLink . GqlExampleVote . GqlExampleUser };
 		roots: { GqlExampleLinkFeed new };
 		build.
 
