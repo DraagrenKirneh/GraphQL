@@ -1,15 +1,13 @@
 {
-	"commentStamp" : "HenrikNergaard 4/21/2018 17:38",
+	"commentStamp" : "",
 	"super" : "Object",
 	"category" : "GraphQL-Core-Execution",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"operations",
-		"types",
-		"context"
+		"types"
 	],
-	"name" : "GraphQL",
+	"name" : "GqlSchema",
 	"type" : "normal"
 }

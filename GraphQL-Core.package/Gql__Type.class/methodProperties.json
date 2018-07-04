@@ -1,14 +1,15 @@
 {
 	"instance" : {
-		"enumValues:" : "HenrikNergaard 6/23/2018 22:57",
-		"fields:" : "HenrikNergaard 6/23/2018 22:57",
-		"inputFields" : "HenrikNergaard 6/23/2018 22:57",
+		"enumValues:" : "HenrikNergaard 7/4/2018 22:55",
+		"fields:" : "HenrikNergaard 7/4/2018 22:55",
+		"inputFields" : "HenrikNergaard 7/4/2018 22:55",
 		"interfaces" : "HenrikNergaard 6/23/2018 22:57",
-		"kind" : "HenrikNergaard 6/23/2018 22:57",
+		"kind" : "HenrikNergaard 7/4/2018 22:55",
 		"ofType" : "HenrikNergaard 6/23/2018 22:57",
 		"possibleTypes" : "HenrikNergaard 6/23/2018 22:57"
 	},
 	"class" : {
-		"gqlAlias" : "HenrikNergaard 6/9/2018 20:14"
+		"gqlAlias" : "HenrikNergaard 6/9/2018 20:14",
+		"type:context:" : "HenrikNergaard 7/4/2018 22:59"
 	}
 }

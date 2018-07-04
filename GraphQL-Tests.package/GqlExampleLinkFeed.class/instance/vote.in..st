@@ -1,4 +1,4 @@
-as yet unclassified
+mutation
 vote: anId in: aCtx
 
 	<gqlOperation: 'mutation VoteMutation vote(linkId: ID!) : Vote'>

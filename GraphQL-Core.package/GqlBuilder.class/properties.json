@@ -10,7 +10,8 @@
 		"resolvers",
 		"operations",
 		"rootObjects",
-		"lut"
+		"lut",
+		"metaFields"
 	],
 	"name" : "GqlBuilder",
 	"type" : "normal"

@@ -3,7 +3,7 @@ initialize
 
 	super initialize.
 	
-	classes := IdentitySet new.
+	classes := IdentitySet with: Gql__Type.
 	rootObjects := IdentitySet new.	
 	resolvers := IdentityDictionary new.
 	
@@ -14,3 +14,6 @@ initialize
 	].
 
 	operations := GqlOperationSet new.
+	
+	metaFields := OrderedCollection with: GqlCustomResolver typenameResolver.
+	

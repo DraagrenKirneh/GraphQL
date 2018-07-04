@@ -9,9 +9,12 @@ build
 
 	lut associationsDo: [ :assoc | | dct |
 		dct := operations setAt: assoc key operation.
-		dct at: assoc key name put: assoc value		
+		dct at: assoc key name put: assoc value.
+		assoc key operation = 'query' ifTrue: [ assoc value forQuery  ]
 	].
 
 	self bindTypes.
 
-	^ GraphQL new operations: operations
+	^ GraphQL new 
+		operations: operations;
+		types: resolvers

@@ -1,4 +1,4 @@
 accessing
 addQuery: aRootResolver
 
-	operations addQuery: aRootResolver
+	operations addQuery: aRootResolver.
