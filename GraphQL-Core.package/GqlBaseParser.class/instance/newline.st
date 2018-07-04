@@ -1,4 +1,4 @@
 accessing
 newline
 
-	^ self subclassResponsibility 
+	^ Character lf 

@@ -2,15 +2,12 @@
 	"instance" : {
 		"args" : "HenrikNergaard 6/13/2018 19:54",
 		"argsFromMap:" : "HenrikNergaard 6/13/2018 19:54",
-		"arguments:" : "HenrikNergaard 4/24/2018 23:54",
 		"bindTypeFrom:" : "HenrikNergaard 6/13/2018 20:00",
 		"field" : "HenrikNergaard 6/13/2018 19:55",
 		"field:" : "HenrikNergaard 6/13/2018 19:55",
 		"introspect" : "HenrikNergaard 6/10/2018 13:13",
 		"resolveField:from:in:" : "HenrikNergaard 6/23/2018 19:46",
-		"selector:" : "HenrikNergaard 4/24/2018 23:37",
-		"type" : "HenrikNergaard 4/24/2018 23:37",
-		"type:" : "HenrikNergaard 4/24/2018 23:37"
+		"selector:" : "HenrikNergaard 4/24/2018 23:37"
 	},
 	"class" : {
 		"fromField:selector:" : "HenrikNergaard 6/23/2018 22:14",

@@ -5,6 +5,6 @@ parseKeyValuePair
 	
 	key := self parseName.
 	
-	self expectColon.
+	self expectColon; skipWhitespace. 
 		
-	^ key -> self parseValue
+	^ key -> self parse
