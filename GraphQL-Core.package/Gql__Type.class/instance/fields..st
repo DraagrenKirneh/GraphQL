@@ -5,4 +5,4 @@ fields: includeDeprecated
 
 	"<gqlField: 'fields(includeDeprecated: Boolean = false): [__Field!]'>"
 
-	^ object fields values collect: [ :each | each introspect ]
+	"^ object fields values collect: [ :each | each introspect ]"

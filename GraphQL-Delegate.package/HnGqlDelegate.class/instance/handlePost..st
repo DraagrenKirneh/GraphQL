@@ -6,13 +6,11 @@ handlePost: reqIt
 	payload := STONJSON fromString: reqIt request contents.
 	vars := payload at: 'variables' ifAbsent: [ nil ].
 	query := payload at: 'query'.
-	payload inspectOnce.
-	
 		
 	result := graphql execute: query variables: vars.
-	result crLog.
+
 	output := STONJSON toString: result.
-	response := ZnResponse ok: (ZnStringEntity json: output).
+	response := "ZnResponse ok: (ZnStringEntity json: output)." ZnResponse unauthorized.
 	self setCorsHeaders: response.
 
 	^ response	

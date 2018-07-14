@@ -3,7 +3,7 @@ createTypeResolver: aClass
 	
 	| fields |
 	
-	fields := self fieldResolvers: #gqlField: in: aClass.
+	fields := self fieldResolvers: #(gqlField: gqlContextField:) in: aClass.
 	
 	^ GqlTypeResolver new 
 		name: aClass gqlAlias;

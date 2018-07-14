@@ -1,11 +1,14 @@
 {
 	"commentStamp" : "",
-	"super" : "GqlFieldResolver",
+	"super" : "GqlResolvable",
 	"category" : "GraphQL-Core-Resolvers",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "GqlPerformResolver",
+	"instvars" : [
+		"selector",
+		"field"
+	],
+	"name" : "GqlFieldResolver",
 	"type" : "normal"
 }

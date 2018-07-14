@@ -1,7 +1,7 @@
 {
 	"instance" : {
 		"enumValues:" : "HenrikNergaard 7/4/2018 22:55",
-		"fields:" : "HenrikNergaard 7/4/2018 22:55",
+		"fields:" : "HenrikNergaard 7/7/2018 13:59",
 		"inputFields" : "HenrikNergaard 7/4/2018 22:55",
 		"interfaces" : "HenrikNergaard 6/23/2018 22:57",
 		"kind" : "HenrikNergaard 7/4/2018 22:55",
@@ -10,6 +10,6 @@
 	},
 	"class" : {
 		"gqlAlias" : "HenrikNergaard 6/9/2018 20:14",
-		"type:context:" : "HenrikNergaard 7/4/2018 22:59"
+		"type:context:" : "HenrikNergaard 7/4/2018 22:40"
 	}
 }

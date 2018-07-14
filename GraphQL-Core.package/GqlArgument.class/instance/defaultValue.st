@@ -1,6 +1,9 @@
 accessing
 defaultValue
 
-	defaultValue == self ifTrue: [ self error ].
+	defaultValue == self ifTrue: [ 
+		type nullable ifTrue: [ ^ nil ].
+		self error 
+	].
 
 	^ defaultValue 
