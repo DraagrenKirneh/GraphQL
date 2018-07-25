@@ -16,9 +16,9 @@ testInlineFragments
   		profiles(handles: ["zuck", "cocacola"]) {
     		handle
     		... on User {
-      friends {
-        count
-      }
+      			friends {
+        		count
+      		}
     }
     ... on Page {
       likers {

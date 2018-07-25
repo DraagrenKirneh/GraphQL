@@ -1,4 +1,4 @@
-tests
+test - dice
 testFieldAlias
 
 	| gql res |
