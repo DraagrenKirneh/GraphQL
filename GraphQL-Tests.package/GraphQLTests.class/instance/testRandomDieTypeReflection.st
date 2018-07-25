@@ -3,11 +3,8 @@ testRandomDieTypeReflection
 
 	| gql res |
 
-	gql := GqlBuilder new 
-		types: { GqlExRandomDie };
-		roots: { GqlExRandomDie };
-		build.
-
+	gql := self randomDieResolver.
+	
 	res := gql execute: '{ 
 		__type(name: "RandomDie") { 
 			name 

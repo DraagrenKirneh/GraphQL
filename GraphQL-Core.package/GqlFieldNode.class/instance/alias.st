@@ -1,4 +1,4 @@
 accessing
 alias
 
-	^ alias
+	^ alias ifNil: [ name ]

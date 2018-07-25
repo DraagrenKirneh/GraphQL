@@ -3,10 +3,7 @@ testRandomDieTypename
 
 	| gql res |
 
-	gql := GqlBuilder new 
-		types: { GqlExRandomDie };
-		roots: { GqlExRandomDie };
-		build.
+	gql := self randomDieResolver.
 
 	res := gql execute: '{ 
 		getDie(numSides: 10) { 
