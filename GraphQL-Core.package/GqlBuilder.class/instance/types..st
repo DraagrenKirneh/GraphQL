@@ -1,4 +1,4 @@
 accessing
-classes: aCollection
+types: aCollection
 
 	classes addAll: aCollection 

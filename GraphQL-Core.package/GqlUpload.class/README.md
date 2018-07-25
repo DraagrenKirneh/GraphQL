@@ -1,0 +1,1 @@
+https://github.com/jaydenseric/graphql-multipart-request-spec

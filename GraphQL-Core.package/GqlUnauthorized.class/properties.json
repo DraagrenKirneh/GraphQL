@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "GqlError",
+	"category" : "GraphQL-Core-Error",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "GqlUnauthorized",
+	"type" : "normal"
+}

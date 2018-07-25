@@ -1,4 +1,4 @@
 accessing
 deprecationReason
 
-	<gqlQuery: 'deprecationReason : String'>
+	<gqlField: 'deprecationReason : String'>

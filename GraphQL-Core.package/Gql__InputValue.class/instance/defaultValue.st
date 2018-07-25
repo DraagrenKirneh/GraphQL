@@ -1,4 +1,4 @@
 accessing
 defaultValue
 
-	<gqlQuery: 'defaultValue: String'>
+	<gqlField: 'defaultValue: String'>

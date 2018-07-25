@@ -1,4 +1,4 @@
 accessing
 locations
 
-	<gqlQuery: 'locations: [__DirectiveLocation!]!'>
+	<gqlField: 'locations: [__DirectiveLocation!]!'>

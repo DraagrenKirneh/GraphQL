@@ -3,4 +3,4 @@ interfaces
 
 	"OBJECT only"
 
-	<gqlQuery: 'interfaces: [__Type!]'>
+	<gqlField: 'interfaces: [__Type!]'>

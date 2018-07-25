@@ -1,4 +1,4 @@
 accessing
 kind
 
-	<gqlQuery: 'kind: __TypeKind!'>
+	"<gqlField: 'kind: __TypeKind!'>"

@@ -6,7 +6,8 @@ executeOperation: anOperation variables: aDictionary
 	executionContext := GqlExecutionContext new
 		userContext: context;
 		variables: aDictionary;
-		operation: anOperation.
+		operation: anOperation;
+		schema: self.
 	
 	resolver := operations resovlerFor: anOperation.		
 	

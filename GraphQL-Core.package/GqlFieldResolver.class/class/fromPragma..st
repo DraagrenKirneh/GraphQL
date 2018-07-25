@@ -4,10 +4,6 @@ fromPragma: aPragma
 	| field |
 		
 	field := GqlTypeParser parseField: aPragma arguments first.
-
-	^ self new 
-		name: field name;
-		field: field;			
-		selector: aPragma methodSelector;
-		yourself	
+	
+	^ self fromField: field selector: aPragma methodSelector
 		

@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "HenrikNergaard 7/21/2018 14:41",
+	"super" : "Object",
+	"category" : "GraphQL-Core-Models",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"name",
+		"data",
+		"type"
+	],
+	"name" : "GqlUpload",
+	"type" : "normal"
+}

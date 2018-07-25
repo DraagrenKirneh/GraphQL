@@ -1,22 +1,20 @@
 {
 	"instance" : {
 		"addClasses:" : "HenrikNergaard 5/4/2018 20:27",
-		"addQuery:" : "HenrikNergaard 6/10/2018 14:44",
+		"addQuery:" : "HenrikNergaard 7/4/2018 22:56",
 		"addResolver:" : "HenrikNergaard 6/10/2018 14:35",
 		"addRoots:" : "HenrikNergaard 6/10/2018 14:41",
-		"bindTypes" : "HenrikNergaard 6/10/2018 14:43",
-		"build" : "HenrikNergaard 6/13/2018 20:18",
-		"classes:" : "HenrikNergaard 5/4/2018 20:27",
-		"createMutationResolver:" : "HenrikNergaard 6/13/2018 20:11",
-		"createQueryResolver:" : "HenrikNergaard 6/14/2018 21:17",
-		"createSubscriptionResolver:" : "HenrikNergaard 6/14/2018 21:18",
-		"createTypeResolver:" : "HenrikNergaard 6/13/2018 20:20",
-		"fieldResolvers:in:" : "HenrikNergaard 6/13/2018 20:14",
-		"initialize" : "HenrikNergaard 6/12/2018 23:57",
+		"bindMetaFieldsIn:" : "HenrikNergaard 7/4/2018 22:16",
+		"bindTypes" : "HenrikNergaard 7/4/2018 22:08",
+		"build" : "HenrikNergaard 7/4/2018 22:57",
+		"buildRoot:" : "HenrikNergaard 7/7/2018 14:15",
+		"createTypeResolver:" : "HenrikNergaard 7/7/2018 14:17",
+		"fieldResolvers:in:" : "HenrikNergaard 7/7/2018 14:17",
+		"initialize" : "HenrikNergaard 7/4/2018 22:40",
+		"lookupFieldClass:" : "HenrikNergaard 7/7/2018 14:14",
 		"operations" : "HenrikNergaard 6/10/2018 14:38",
-		"performPragma:in:" : "HenrikNergaard 5/4/2018 22:50",
-		"rootResolverFor:type:field:" : "HenrikNergaard 6/14/2018 21:18",
-		"roots:" : "HenrikNergaard 6/14/2018 21:18"
+		"roots:" : "HenrikNergaard 6/14/2018 21:18",
+		"types:" : "HenrikNergaard 6/23/2018 22:36"
 	},
 	"class" : {
 		"buildType:" : "HenrikNergaard 6/13/2018 20:19",

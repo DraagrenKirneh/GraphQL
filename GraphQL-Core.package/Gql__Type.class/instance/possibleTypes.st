@@ -1,4 +1,4 @@
 accessing
 possibleTypes
 
-	<gqlQuery: 'possibleTypes: [__Type!]'>
+	<gqlField: 'possibleTypes: [__Type!]'>

@@ -9,7 +9,9 @@
 		"classes",
 		"resolvers",
 		"operations",
-		"rootObjects"
+		"rootObjects",
+		"lut",
+		"metaFields"
 	],
 	"name" : "GqlBuilder",
 	"type" : "normal"

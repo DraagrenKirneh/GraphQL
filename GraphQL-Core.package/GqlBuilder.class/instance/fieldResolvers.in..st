@@ -1,5 +1,6 @@
 private
-fieldResolvers: aSymbol in: aClass
+fieldResolvers: aCollection in: aClass
 	
-	^ (Pragma allNamed: aSymbol from: aClass to: Object) 
-		collect: [ :pragma | GqlPerformResolver fromPragma: pragma ]
+	^ (Pragma allIn: aCollection from: aClass to: Object) collect: [ :pragma | 
+			(self lookupFieldClass: pragma keyword) fromPragma: pragma 
+		]
