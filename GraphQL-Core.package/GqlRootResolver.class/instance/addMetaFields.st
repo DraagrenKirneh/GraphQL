@@ -1,4 +1,4 @@
 as yet unclassified
-forQuery
+addMetaFields
 
 	self addField: GqlCustomResolver typeField

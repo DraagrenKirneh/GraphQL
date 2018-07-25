@@ -10,7 +10,7 @@ build
 	lut associationsDo: [ :assoc | | dct |
 		dct := operations setAt: assoc key operation.
 		dct at: assoc key name put: assoc value.
-		assoc key operation = 'query' ifTrue: [ assoc value forQuery  ]
+		assoc key operation = 'query' ifTrue: [ assoc value addMetaFields ]
 	].
 
 	self bindTypes.
