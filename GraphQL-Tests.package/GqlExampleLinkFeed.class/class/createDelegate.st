@@ -4,8 +4,8 @@ createDelegate
 	| gql |
 
 	gql := GqlBuilder new
- 		classes: { GqlExampleLink };
-		roots: { self new };
+ 		types: { GqlExampleLink . GqlExampleUser . GqlExampleVote };
+		roots: { GqlExampleLinkFeed new . GqlExampleLogin new };
 		build.
 	
 	^ HnGqlDelegate new

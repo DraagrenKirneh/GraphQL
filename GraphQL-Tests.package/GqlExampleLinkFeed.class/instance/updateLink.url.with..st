@@ -1,7 +1,7 @@
 mutation
 updateLink: anId url: anUrl with: aDescription
 	
-	<gqlMutation: 'updateLink(id: ID!, url: String, description: String): Link'>
+	<gqlOperation: 'mutation FeedMutation updateLink(id: ID!, url: String, description: String): Link'>
 	
 	| link |
 	

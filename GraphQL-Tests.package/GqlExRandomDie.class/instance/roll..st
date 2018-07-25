@@ -1,6 +1,6 @@
 initialization
 roll: count
 	
-	<gqlQuery: 'roll(count: Int) : Int'>
+	<gqlField: 'roll(count: Int = 1) : Int'>
 	
 	^ (1 to: count) collect: [ :_ | self roll ]

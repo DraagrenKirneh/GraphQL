@@ -1,0 +1,12 @@
+{
+	"instance" : {
+		"acceptConnection:" : "HenrikNergaard 6/24/2018 19:10",
+		"handleMessage:" : "HenrikNergaard 6/24/2018 19:11",
+		"handleMessage:for:" : "HenrikNergaard 6/24/2018 19:20",
+		"initialize" : "HenrikNergaard 6/24/2018 18:51",
+		"register:" : "HenrikNergaard 6/24/2018 18:52",
+		"unregister:" : "HenrikNergaard 6/24/2018 18:52",
+		"value:" : "HenrikNergaard 6/24/2018 19:15"
+	},
+	"class" : { }
+}
