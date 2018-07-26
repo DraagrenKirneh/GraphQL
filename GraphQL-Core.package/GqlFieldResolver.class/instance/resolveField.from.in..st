@@ -7,5 +7,7 @@ resolveField: aField from: aParent in: anExecutionContext
 	args := self argsFromMap: resolvedArgs.
 	
 	object := aParent perform: selector withArguments: { args . anExecutionContext }.
-			
+	
+	field type verify: object.
+	
 	^ field type resolve: object from: aField in: anExecutionContext		

@@ -9,7 +9,7 @@ testUserNestedFragments
       			...friendFields
     		}
     		mutualFriends(first: 10) {
-      			...friendFields
+      			... friendFields
     		}
  		 }
 	}
@@ -17,7 +17,7 @@ testUserNestedFragments
 	fragment friendFields on User {
  	 	id
   		name
- 	 	...standardProfilePic
+ 	 	... standardProfilePic
 	}
 
 	fragment standardProfilePic on User {
