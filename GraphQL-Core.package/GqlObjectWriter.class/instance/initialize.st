@@ -3,4 +3,4 @@ initialize
 
 	super initialize.
 	
-	output := Dictionary new.
+	output := OrderedDictionary new.

@@ -1,13 +1,13 @@
 {
 	"commentStamp" : "",
 	"super" : "Object",
-	"category" : "GraphQL-Core-Execution",
+	"category" : "GraphQL-Core-Introspection",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"types"
+		"context"
 	],
-	"name" : "GqlSchema",
+	"name" : "Gql__Schema",
 	"type" : "normal"
 }

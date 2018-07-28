@@ -1,4 +1,6 @@
-as yet unclassified
+adding
 addMetaFields
 
-	self addField: GqlCustomResolver typeField
+	self 
+		addField: GqlCustomResolver typeField";
+		addField: GqlCustomResolver schemaField"

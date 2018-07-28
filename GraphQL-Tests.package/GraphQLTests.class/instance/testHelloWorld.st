@@ -11,6 +11,6 @@ testHelloWorld
 		build.
 
 	obj := gql execute: '{ hello }'.
-	dct := Dictionary with: ('data' -> (Dictionary with: ('hello' -> 'world'))).
+	dct := Dictionary with: ('data' -> (OrderedDictionary with: ('hello' -> 'world'))).
 	
 	self assert: obj equals: dct

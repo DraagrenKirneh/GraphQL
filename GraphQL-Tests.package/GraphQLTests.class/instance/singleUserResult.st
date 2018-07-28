@@ -6,4 +6,4 @@ singleUserResult
 		'name' -> 'test'.
 		'smallPic' -> '64'.
 		'bigPic' -> '1024'
-	 } asDictionary 
+	 } asOrderedDictionary
