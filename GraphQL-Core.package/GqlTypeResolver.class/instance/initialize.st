@@ -3,4 +3,5 @@ initialize
 
 	super initialize.
 	
-	fields := Dictionary new
+	fields := Dictionary new.
+	self addField: GqlCustomResolver typenameResolver

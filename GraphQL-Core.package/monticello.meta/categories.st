@@ -1,5 +1,7 @@
 SystemOrganization addCategory: #'GraphQL-Core'!
 SystemOrganization addCategory: 'GraphQL-Core-Builder'!
+SystemOrganization addCategory: 'GraphQL-Core-Directive'!
+SystemOrganization addCategory: 'GraphQL-Core-Error'!
 SystemOrganization addCategory: 'GraphQL-Core-Execution'!
 SystemOrganization addCategory: 'GraphQL-Core-Introspection'!
 SystemOrganization addCategory: 'GraphQL-Core-Models'!

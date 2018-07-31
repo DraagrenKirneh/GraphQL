@@ -1,4 +1,4 @@
 execution
 execute: aQuery
 
-	^ self execute: aQuery variables: Dictionary new
+	^ self execute: aQuery variables: Dictionary new request: nil

@@ -1,13 +1,10 @@
-tests
+test - dice
 testRandomDie
 
 	| gql res |
 
-	gql := GqlBuilder new 
-		classes: { GqlExRandomDie };
-		addQuery: GqlExRandomDie rootResolver;
-		build.
-
+	gql := self randomDieResolver.
+	
 	gql execute: '{ 
 		getDie(numSides: 10) { 
 			rollOnce 
@@ -15,10 +12,18 @@ testRandomDie
 		} 		
 	}'.
 	
-	res := gql execute: 'query dice { 
+	res := gql execute: 'query Dice { 
 		getDie(numSides: 1) { 
 			rollOnce 
 		} 		
 	}'.
 		
-	self assertResult: res atPath: { 'data' . 'getDie' . 'rollOnce' } equals: 1	
+	self assertResult: res atPath: { 'data' . 'getDie' . 'rollOnce' } equals: 1.	
+	
+	res := gql execute: 'query Dice { 
+		getDie(numSides: 1) { 
+			roll 
+		} 		
+	}'.
+		
+	self assertResult: res atPath: { 'data' . 'getDie' . 'roll' } equals: #(1)

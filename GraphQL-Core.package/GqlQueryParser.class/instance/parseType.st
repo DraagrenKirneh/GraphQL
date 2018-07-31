@@ -1,5 +1,5 @@
 parsing
 parseType
 	
-	^ GqlTypeNode named: self parseName 
+	^ GqlTypeParser parse: reader
 	

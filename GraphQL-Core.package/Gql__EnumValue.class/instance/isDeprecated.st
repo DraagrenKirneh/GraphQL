@@ -1,4 +1,4 @@
 accessing
 isDeprecated
 
-	<gqlQuery: 'isDeprecated: Boolean'>
+	<gqlField: 'isDeprecated: Boolean'>

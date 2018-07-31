@@ -3,8 +3,11 @@ testInlineFragments
 
 	| root gql obj |
 
+	true ifTrue: [ ^ self skip ].
+
 	root := GqlRootResolver new name: #inlineFragmentTyping.
-	root makeField: [ :f | f name: #profiles; type: #Page; value: [ :p :a :c | Object new ]].
+	root makeField: [ :f | f name: #profiles; type: #Page; 
+		value: [ :p :a :c | Object new ]].
 	
 	gql := GqlBuilder new 
 		addQuery: root;
@@ -15,9 +18,9 @@ testInlineFragments
   		profiles(handles: ["zuck", "cocacola"]) {
     		handle
     		... on User {
-      friends {
-        count
-      }
+      			friends {
+        		count
+      		}
     }
     ... on Page {
       likers {

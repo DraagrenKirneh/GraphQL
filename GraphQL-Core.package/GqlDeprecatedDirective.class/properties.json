@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "GqlAbstractDirective",
+	"category" : "GraphQL-Core-Directive",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"reason"
+	],
+	"name" : "GqlDeprecatedDirective",
+	"type" : "normal"
+}

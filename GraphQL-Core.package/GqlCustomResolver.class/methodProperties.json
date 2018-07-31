@@ -7,11 +7,15 @@
 		"forIntScalar" : "HenrikNergaard 6/13/2018 00:41",
 		"forStringScalar" : "HenrikNergaard 6/13/2018 00:41",
 		"initialize" : "HenrikNergaard 6/13/2018 00:48",
-		"resolveField:from:in:" : "HenrikNergaard 6/13/2018 00:40",
+		"resolveField:from:in:" : "HenrikNergaard 7/26/2018 09:54",
 		"type" : "HenrikNergaard 4/22/2018 09:53",
 		"type:" : "HenrikNergaard 6/13/2018 00:33",
 		"value" : "HenrikNergaard 4/22/2018 13:01",
 		"value:" : "HenrikNergaard 4/22/2018 13:01"
 	},
-	"class" : { }
+	"class" : {
+		"schemaField" : "HenrikNergaard 7/26/2018 10:52",
+		"typeField" : "HenrikNergaard 7/4/2018 22:49",
+		"typenameResolver" : "HenrikNergaard 7/4/2018 22:16"
+	}
 }

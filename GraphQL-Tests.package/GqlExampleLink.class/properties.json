@@ -10,7 +10,8 @@
 		"created",
 		"description",
 		"url",
-		"name"
+		"user",
+		"votes"
 	],
 	"name" : "GqlExampleLink",
 	"type" : "normal"

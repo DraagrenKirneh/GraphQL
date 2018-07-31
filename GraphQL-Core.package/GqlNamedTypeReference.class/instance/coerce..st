@@ -1,0 +1,4 @@
+private
+coerce: anObject
+
+	^ anObject 

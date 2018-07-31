@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "ZnWebSocketDelegate",
+	"category" : "GraphQL-Delegate",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"webSockets",
+		"lock"
+	],
+	"name" : "GqlWebSocketHandler",
+	"type" : "normal"
+}

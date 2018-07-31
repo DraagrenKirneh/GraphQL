@@ -1,7 +1,7 @@
 query
 feed
 	
-	<gqlQuery: 'feed : [Link]'>
+	<gqlOperation: 'query FeedQuery feed : [Link]'>
 	
 	^ feed
 	

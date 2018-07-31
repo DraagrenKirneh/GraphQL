@@ -1,0 +1,4 @@
+*GraphQL-Core
+gqlAlias
+
+	^ #String

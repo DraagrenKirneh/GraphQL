@@ -1,6 +1,6 @@
 accessing
 url
 	
-	<gqlQuery: 'url: String'>
+	<gqlField: 'url: String'>
 	
 	^ url 

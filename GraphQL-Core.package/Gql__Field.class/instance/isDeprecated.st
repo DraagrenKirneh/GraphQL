@@ -1,4 +1,8 @@
 accessing
 isDeprecated
 
-	<gqlQuery: 'isDeprecated: Boolean'>
+	<gqlField: 'isDeprecated: Boolean'>
+	
+	^ object directives anySatisfy: [ :dir | 
+		dir name = 'deprecated' 
+	]

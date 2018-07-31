@@ -7,6 +7,8 @@ resolveField: aField from: aParent in: anExecutionContext
 	
 	object := value gqlResolve: aParent 
 		with: args 
-		in: anExecutionContext userContext.
-		
+		in: anExecutionContext.
+	
+	type verify: object.
+	
 	^ type resolve: object from: aField in: anExecutionContext

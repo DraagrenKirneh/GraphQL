@@ -1,7 +1,6 @@
 accessing
 id
 
-	<gqlQuery: 'id : ID'>
-	<gqlQuery: #id args: #() type: #ID>
+	<gqlField: 'id : ID!'>
 	
 	^ id

@@ -1,4 +1,4 @@
 accessing
 description
 
-	<gqlQuery: 'description: String'>
+	<gqlField: 'description: String'>

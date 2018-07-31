@@ -6,7 +6,6 @@ parseCommaListUsing: aBlockOrSymbol until: aTerminator
 	list := Dictionary new.
 
 	reader untilEnd: [ | item |
-		"self skipWhitespaceAndComments."
 		(self peekFor: aTerminator) ifTrue: [ ^ list ].
 		list ifNotEmpty: [ self expectComma ].
 		item := aBlockOrSymbol value: self.

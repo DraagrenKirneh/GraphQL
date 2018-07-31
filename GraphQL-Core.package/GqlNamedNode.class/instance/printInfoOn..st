@@ -1,4 +1,6 @@
 printing
 printInfoOn: aStream
 
-	"self subclassResponsibility"
+	name ifNotNil: [ 
+		aStream << '( ' << name; << ' )'
+	]

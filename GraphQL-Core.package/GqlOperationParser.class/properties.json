@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "GqlBaseParser",
+	"category" : "GraphQL-Core-Parsing",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "GqlOperationParser",
+	"type" : "normal"
+}

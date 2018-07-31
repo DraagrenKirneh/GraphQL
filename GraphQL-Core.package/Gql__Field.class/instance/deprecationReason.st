@@ -1,4 +1,9 @@
 accessing
 deprecationReason
 
-	<gqlQuery: 'deprecationReason : String'>
+	<gqlField: 'deprecationReason : String'>
+	
+	^ object directives 
+		detect: [ :dir | dir name = 'deprecated' ]
+		ifFound: [ :dir | dir arguments at: 'reason' ]
+	
