@@ -20,7 +20,7 @@ handlePost: reqIt
 	].
 
 	output := STONJSON toString: result.
-	response := "ZnResponse ok: (ZnStringEntity json: output)." ZnResponse unauthorized.
+	response := ZnResponse ok: (ZnStringEntity json: output).
 	self setCorsHeaders: response.
 
 	^ response	
